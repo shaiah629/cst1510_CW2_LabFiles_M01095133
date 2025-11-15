@@ -80,8 +80,8 @@ def validate_username(username):
 def validate_password(password):
     if not password:
         return False, "Password cannot be empty"
-    if len(password) < 8:
-        return False, "Password must be at least 8 characters"
+    if len(password) < 6:
+        return False, "Password must be at least 6 characters"
     if not any(char.isdigit() for char in password):
         return False, "Password must contain at least one digit"
     if not any(char.isupper() for char in password):
