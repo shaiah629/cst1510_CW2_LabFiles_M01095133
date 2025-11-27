@@ -1,0 +1,6 @@
+ticket_id,priority,status,category,subject,description,created_date,resolved_date,assigned_to
+TICKET-001,High,Closed,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP,2024-11-19,2024-11-21,IT_Support
+TICKET-002,Medium,Open,Software,Office 365 licensing issue,User cannot activate Outlook after update,2024-11-20,,Helpdesk
+TICKET-003,Low,Closed,Network,VPN slow connectivity,Experiencing slow connection when using VPN,2024-11-18,2024-11-20,Network_Ops
+TICKET-004,Critical,Open,Hardware,Server rack 4 overheating alarm,Received critical temperature alarm from data centre,2024-11-24,,System_Admin
+TICKET-005,Medium,Open,Access,New employee access request,New hire needs access to ERP system,2024-11-24,,Helpdesk

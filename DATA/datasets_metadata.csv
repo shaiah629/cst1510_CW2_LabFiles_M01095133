@@ -1,0 +1,6 @@
+dataset_name,category,source,last_updated,record_count,file_size_mb
+Network_Logs,Security,Internal SIEM,2024-11-23,1500000,450.25
+Customer_Records_v3,CRM,External API,2024-11-15,580000,120.70
+Satellite_Imagery_Q4,Geography,Government Source,2024-10-01,1200,800.00
+Financial_Transactions,Finance,Internal ERP,2024-11-24,3200000,98.15
+Sensor_Data_Test,IoT,Internal Edge Device,2024-11-24,50000,15.50

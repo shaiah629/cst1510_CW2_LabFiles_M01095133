@@ -1,0 +1,6 @@
+date,incident_type,severity,status,description,reported_by
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
