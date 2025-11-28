@@ -1,5 +1,7 @@
 #import connection utility
+import sqlite3
 from app.data.db import connect_database
+conn = sqlite3.connect('DATA/intelligence_platform.db')
 
 def create_users_table(conn):
     """Create the users table with security columns."""
@@ -8,8 +10,8 @@ def create_users_table(conn):
     create_table_sql = """
     CREATE TABLE IF NOT EXISTS users (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
-        username TEXT NOT NULL UNIQUE,  <-- CHECK FOR THIS COMMA!
-        password_hash TEXT NOT NULL,    <-- CHECK THIS SPELLING!
+        username TEXT NOT NULL UNIQUE, 
+        password_hash TEXT NOT NULL,   
         role TEXT DEFAULT 'user',
         created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     )
@@ -87,3 +89,5 @@ def create_all_tables(conn):
     create_datasets_metadata_table(conn)
     create_it_tickets_table(conn)
     print("All tables schema established.")
+
+create_all_tables(conn)
