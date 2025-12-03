@@ -4,3 +4,498 @@ TICKET-002,Medium,Open,Software,Office 365 licensing issue,User cannot activate 
 TICKET-003,Low,Closed,Network,VPN slow connectivity,Experiencing slow connection when using VPN,2024-11-18,2024-11-20,Network_Ops
 TICKET-004,Critical,Open,Hardware,Server rack 4 overheating alarm,Received critical temperature alarm from data centre,2024-11-24,,System_Admin
 TICKET-005,Medium,Open,Access,New employee access request,New hire needs access to ERP system,2024-11-24,,Helpdesk
+TICKET-006,Low,In Progress,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-26,,IT_Support
+TICKET-007,Critical,Open,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-11-21,,IT_Support
+TICKET-008,Critical,In Progress,Server,Server rack 4 overheating alarm,Received critical temperature alarm from data centre. Requires immediate remote investigation.,2024-12-02,,IT_Support
+TICKET-009,High,Open,Server,Server rack 4 overheating alarm,Received critical temperature alarm from data centre. Requires immediate remote investigation.,2024-11-24,,Helpdesk
+TICKET-010,Low,In Progress,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-30,,Network_Ops
+TICKET-011,High,Open,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-21,,IT_Support
+TICKET-012,Low,Resolved,Security,Firewall rule modification request,Request to open port 443 inbound to new web server IP.,2024-11-25,2024-11-26,Network_Ops
+TICKET-013,High,In Progress,Hardware,Faulty webcam for meetings,Integrated camera not recognized by Windows or Teams.,2024-11-18,,IT_Support
+TICKET-014,High,Resolved,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-28,2024-12-01,Network_Ops
+TICKET-015,Low,Resolved,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-18,2024-11-23,System_Admin
+TICKET-016,Critical,In Progress,Server,Server rack 4 overheating alarm,Received critical temperature alarm from data centre. Requires immediate remote investigation.,2024-11-19,,System_Admin
+TICKET-017,Low,Open,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-12-01,,Network_Ops
+TICKET-018,Medium,Resolved,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-25,2024-11-26,Helpdesk
+TICKET-019,High,Resolved,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-27,2024-11-29,Network_Ops
+TICKET-020,Critical,Closed,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-22,2024-11-23,IT_Support
+TICKET-021,Critical,In Progress,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-28,,Network_Ops
+TICKET-022,Critical,In Progress,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-15,,System_Admin
+TICKET-023,Critical,Open,Server,Server rack 4 overheating alarm,Received critical temperature alarm from data centre. Requires immediate remote investigation.,2024-11-22,,Network_Ops
+TICKET-024,High,Resolved,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-11-24,2024-11-28,Security
+TICKET-025,Critical,Resolved,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-12-03,2024-12-04,Helpdesk
+TICKET-026,Critical,In Progress,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-24,,System_Admin
+TICKET-027,High,Resolved,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-11-21,2024-11-22,IT_Support
+TICKET-028,Medium,Open,Security,Firewall rule modification request,Request to open port 443 inbound to new web server IP.,2024-11-19,,Security
+TICKET-029,High,Open,Software,Office 365 licensing issue,User cannot activate Outlook after update; receiving error code 0x80041003.,2024-12-03,,System_Admin
+TICKET-030,Medium,In Progress,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-11-21,,Helpdesk
+TICKET-031,Medium,Open,Security,Phishing reported - Account lockout,User reported suspicious email and immediately locked account for safety.,2024-11-26,,IT_Support
+TICKET-032,Medium,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-26,2024-11-28,System_Admin
+TICKET-033,Critical,Resolved,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-19,2024-11-23,IT_Support
+TICKET-034,High,Open,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-12-04,,IT_Support
+TICKET-035,Medium,Open,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-12-02,,Network_Ops
+TICKET-036,Medium,In Progress,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-11-19,,Network_Ops
+TICKET-037,Low,In Progress,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-20,,Network_Ops
+TICKET-038,Low,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-17,,Helpdesk
+TICKET-039,Critical,Open,Hardware,Faulty webcam for meetings,Integrated camera not recognized by Windows or Teams.,2024-12-02,,Helpdesk
+TICKET-040,Medium,Open,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-12-01,,IT_Support
+TICKET-041,Critical,Resolved,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-28,2024-12-03,Helpdesk
+TICKET-042,High,Resolved,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-11-19,2024-11-23,Network_Ops
+TICKET-043,Medium,In Progress,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-12-02,,Network_Ops
+TICKET-044,Medium,Resolved,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-19,2024-11-20,Helpdesk
+TICKET-045,Critical,Open,Peripherals,Cannot print to department printer,Printer P305 offline/not responding to job requests.,2024-11-20,,Network_Ops
+TICKET-046,High,In Progress,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-12-03,,Network_Ops
+TICKET-047,Low,In Progress,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-12-02,,Helpdesk
+TICKET-048,Critical,Resolved,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-21,2024-11-24,IT_Support
+TICKET-049,Medium,Open,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-24,,System_Admin
+TICKET-050,Low,Resolved,Hardware,Faulty webcam for meetings,Integrated camera not recognized by Windows or Teams.,2024-11-30,2024-12-02,Network_Ops
+TICKET-051,High,Resolved,Security,Firewall rule modification request,Request to open port 443 inbound to new web server IP.,2024-11-26,2024-11-30,System_Admin
+TICKET-052,Medium,Open,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-23,,Helpdesk
+TICKET-053,Medium,Resolved,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-26,2024-11-29,IT_Support
+TICKET-054,Critical,Resolved,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-21,2024-11-25,Helpdesk
+TICKET-055,High,Open,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-25,,Helpdesk
+TICKET-056,Critical,Resolved,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-12-02,2024-12-03,Helpdesk
+TICKET-057,Low,Closed,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-25,2024-11-30,IT_Support
+TICKET-058,Medium,Resolved,Server,Storage warning on File Server 1,Drive C: space dropping below 10%. Clear temporary files or extend volume.,2024-12-01,2024-12-02,Network_Ops
+TICKET-059,Low,Resolved,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-26,2024-11-27,Security
+TICKET-060,High,Open,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-26,,IT_Support
+TICKET-061,Low,Resolved,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-17,2024-11-22,Network_Ops
+TICKET-062,Low,In Progress,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-19,,Helpdesk
+TICKET-063,Critical,Resolved,Server,Server rack 4 overheating alarm,Received critical temperature alarm from data centre. Requires immediate remote investigation.,2024-11-21,2024-11-23,System_Admin
+TICKET-064,Medium,Open,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-20,,IT_Support
+TICKET-065,Low,Resolved,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-11-17,2024-11-19,Helpdesk
+TICKET-066,High,Closed,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-24,2024-11-26,System_Admin
+TICKET-067,High,Closed,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-15,2024-11-17,System_Admin
+TICKET-068,Medium,Closed,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-21,2024-11-23,Network_Ops
+TICKET-069,Low,In Progress,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-27,,Helpdesk
+TICKET-070,High,Resolved,Software,Office 365 licensing issue,User cannot activate Outlook after update; receiving error code 0x80041003.,2024-11-19,2024-11-22,System_Admin
+TICKET-071,Medium,Open,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-12-03,,IT_Support
+TICKET-072,Low,Open,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-15,,IT_Support
+TICKET-073,Medium,In Progress,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-24,,IT_Support
+TICKET-074,Medium,Resolved,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-25,2024-11-29,Network_Ops
+TICKET-075,Medium,In Progress,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-12-02,,Helpdesk
+TICKET-076,Low,Resolved,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-29,2024-12-04,Security
+TICKET-077,Medium,Open,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-19,,System_Admin
+TICKET-078,High,Resolved,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-19,2024-11-23,System_Admin
+TICKET-079,Medium,In Progress,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-21,,Helpdesk
+TICKET-080,Low,Open,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-11-19,,Network_Ops
+TICKET-081,Low,Open,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-12-01,,Helpdesk
+TICKET-082,Low,Open,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-11-15,,Helpdesk
+TICKET-083,Low,Resolved,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-25,2024-12-01,Security
+TICKET-084,Low,Resolved,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-29,2024-12-02,Security
+TICKET-085,Low,Open,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-12-03,,Security
+TICKET-086,High,Closed,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-27,2024-12-01,System_Admin
+TICKET-087,High,In Progress,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-19,,Network_Ops
+TICKET-088,Medium,Open,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-12-04,,Network_Ops
+TICKET-089,Critical,Open,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-23,,System_Admin
+TICKET-090,High,Resolved,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-11-28,2024-12-02,Network_Ops
+TICKET-091,Low,Open,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-15,,IT_Support
+TICKET-092,Medium,Resolved,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-30,2024-12-03,Security
+TICKET-093,Low,Resolved,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-27,2024-11-30,Helpdesk
+TICKET-094,Low,Closed,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-25,2024-11-28,Security
+TICKET-095,Medium,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-12-04,,System_Admin
+TICKET-096,Critical,In Progress,Peripherals,Cannot print to department printer,Printer P305 offline/not responding to job requests.,2024-11-29,,Security
+TICKET-097,High,Open,Hardware,Faulty webcam for meetings,Integrated camera not recognized by Windows or Teams.,2024-11-17,,Network_Ops
+TICKET-098,Low,Resolved,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-11-24,2024-11-25,System_Admin
+TICKET-099,Medium,Open,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-15,,Network_Ops
+TICKET-100,Low,Resolved,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-25,2024-11-27,IT_Support
+TICKET-101,Critical,Resolved,Server,Security patch failed to deploy on 5 servers,WSUS deployment failed on a critical subset of application servers.,2024-11-22,2024-11-23,Helpdesk
+TICKET-102,Medium,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-16,2024-11-20,IT_Support
+TICKET-103,Medium,In Progress,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-11-28,,IT_Support
+TICKET-104,High,Closed,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-26,2024-12-01,Network_Ops
+TICKET-105,Critical,Resolved,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-18,2024-11-22,IT_Support
+TICKET-106,Medium,Resolved,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-20,2024-11-25,Helpdesk
+TICKET-107,Low,Closed,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-24,2024-11-26,Network_Ops
+TICKET-108,Medium,In Progress,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-19,,Security
+TICKET-109,Low,Resolved,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-11-18,2024-11-19,System_Admin
+TICKET-110,High,Resolved,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-24,2024-11-27,Helpdesk
+TICKET-111,High,Resolved,Hardware,Faulty webcam for meetings,Integrated camera not recognized by Windows or Teams.,2024-12-02,2024-12-04,Network_Ops
+TICKET-112,Critical,Resolved,Hardware,Faulty webcam for meetings,Integrated camera not recognized by Windows or Teams.,2024-12-01,2024-12-04,IT_Support
+TICKET-113,Low,Closed,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-11-27,2024-11-28,IT_Support
+TICKET-114,High,Open,Software,Office 365 licensing issue,User cannot activate Outlook after update; receiving error code 0x80041003.,2024-12-04,,IT_Support
+TICKET-115,Medium,In Progress,Server,Storage warning on File Server 1,Drive C: space dropping below 10%. Clear temporary files or extend volume.,2024-11-28,,Network_Ops
+TICKET-116,Medium,Open,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-12-01,,Helpdesk
+TICKET-117,Low,In Progress,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-17,,Network_Ops
+TICKET-118,Low,Open,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-12-04,,Network_Ops
+TICKET-119,Critical,In Progress,Security,Phishing reported - Account lockout,User reported suspicious email and immediately locked account for safety.,2024-12-01,,Helpdesk
+TICKET-120,Low,In Progress,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-29,,Security
+TICKET-121,Critical,In Progress,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-17,,IT_Support
+TICKET-122,Low,Resolved,Peripherals,Cannot print to department printer,Printer P305 offline/not responding to job requests.,2024-11-15,2024-11-19,IT_Support
+TICKET-123,Critical,In Progress,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-19,,System_Admin
+TICKET-124,Low,Resolved,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-11-26,2024-11-27,Helpdesk
+TICKET-125,Medium,Open,Server,Storage warning on File Server 1,Drive C: space dropping below 10%. Clear temporary files or extend volume.,2024-11-15,,Security
+TICKET-126,Low,Open,Security,Phishing reported - Account lockout,User reported suspicious email and immediately locked account for safety.,2024-11-21,,Security
+TICKET-127,High,In Progress,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-16,,System_Admin
+TICKET-128,Critical,Open,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-22,,System_Admin
+TICKET-129,High,Resolved,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-12-03,2024-12-04,System_Admin
+TICKET-130,Critical,Closed,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-28,2024-12-03,System_Admin
+TICKET-131,High,Open,Network,WiFi authentication intermittent,Users on Guest network intermittently dropped; credentials re-entry required.,2024-11-17,,System_Admin
+TICKET-132,Critical,Resolved,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-22,2024-11-26,Network_Ops
+TICKET-133,Medium,In Progress,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-17,,Helpdesk
+TICKET-134,Critical,Open,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-23,,System_Admin
+TICKET-135,Low,Resolved,Network,WiFi authentication intermittent,Users on Guest network intermittently dropped; credentials re-entry required.,2024-11-27,2024-11-30,IT_Support
+TICKET-136,Medium,In Progress,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-12-04,,Security
+TICKET-137,Critical,Closed,Network,WiFi authentication intermittent,Users on Guest network intermittently dropped; credentials re-entry required.,2024-11-17,2024-11-21,IT_Support
+TICKET-138,High,Resolved,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-12-01,2024-12-03,System_Admin
+TICKET-139,Low,In Progress,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-12-02,,System_Admin
+TICKET-140,High,Open,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-12-03,,Network_Ops
+TICKET-141,Critical,In Progress,Security,Firewall rule modification request,Request to open port 443 inbound to new web server IP.,2024-11-27,,System_Admin
+TICKET-142,High,In Progress,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-11-27,,IT_Support
+TICKET-143,Medium,In Progress,Server,Server rack 4 overheating alarm,Received critical temperature alarm from data centre. Requires immediate remote investigation.,2024-11-28,,Helpdesk
+TICKET-144,Critical,In Progress,Hardware,Faulty webcam for meetings,Integrated camera not recognized by Windows or Teams.,2024-11-20,,IT_Support
+TICKET-145,Medium,In Progress,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-11-29,,System_Admin
+TICKET-146,Low,In Progress,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-12-03,,IT_Support
+TICKET-147,High,In Progress,Security,Phishing reported - Account lockout,User reported suspicious email and immediately locked account for safety.,2024-12-04,,System_Admin
+TICKET-148,Critical,In Progress,Security,Phishing reported - Account lockout,User reported suspicious email and immediately locked account for safety.,2024-11-26,,Helpdesk
+TICKET-149,High,Resolved,Security,Phishing reported - Account lockout,User reported suspicious email and immediately locked account for safety.,2024-11-16,2024-11-21,Security
+TICKET-150,High,Resolved,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-11-22,2024-11-23,Network_Ops
+TICKET-151,High,Closed,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-29,2024-12-01,Security
+TICKET-152,Low,In Progress,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-12-02,,Helpdesk
+TICKET-153,Low,In Progress,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-24,,Network_Ops
+TICKET-154,Medium,Open,Hardware,Faulty webcam for meetings,Integrated camera not recognized by Windows or Teams.,2024-12-04,,IT_Support
+TICKET-155,Low,In Progress,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-24,,Security
+TICKET-156,Low,Open,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-12-03,,IT_Support
+TICKET-157,Low,Open,Security,Phishing reported - Account lockout,User reported suspicious email and immediately locked account for safety.,2024-11-29,,IT_Support
+TICKET-158,Medium,Resolved,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-15,2024-11-20,Network_Ops
+TICKET-159,Medium,Open,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-15,,Security
+TICKET-160,Low,In Progress,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-23,,System_Admin
+TICKET-161,Low,Open,Security,Phishing reported - Account lockout,User reported suspicious email and immediately locked account for safety.,2024-11-29,,Security
+TICKET-162,Critical,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-20,2024-11-25,Network_Ops
+TICKET-163,High,In Progress,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-29,,Helpdesk
+TICKET-164,Medium,Resolved,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-15,2024-11-19,IT_Support
+TICKET-165,High,Open,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-25,,Helpdesk
+TICKET-166,Low,In Progress,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-28,,System_Admin
+TICKET-167,Medium,Resolved,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-11-25,2024-11-28,Security
+TICKET-168,Low,Resolved,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-12-01,2024-12-02,System_Admin
+TICKET-169,Critical,Open,Software,Office 365 licensing issue,User cannot activate Outlook after update; receiving error code 0x80041003.,2024-11-17,,IT_Support
+TICKET-170,Critical,Closed,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-16,2024-11-18,Network_Ops
+TICKET-171,Low,In Progress,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-25,,Network_Ops
+TICKET-172,Critical,Resolved,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-23,2024-11-24,IT_Support
+TICKET-173,Critical,Resolved,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-18,2024-11-21,Network_Ops
+TICKET-174,High,Open,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-12-01,,Helpdesk
+TICKET-175,Critical,In Progress,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-26,,IT_Support
+TICKET-176,Low,Resolved,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-28,2024-12-01,Helpdesk
+TICKET-177,Critical,In Progress,Peripherals,Cannot print to department printer,Printer P305 offline/not responding to job requests.,2024-11-18,,Helpdesk
+TICKET-178,Low,Resolved,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-21,2024-11-25,Network_Ops
+TICKET-179,Low,In Progress,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-28,,IT_Support
+TICKET-180,High,Resolved,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-29,2024-12-03,Helpdesk
+TICKET-181,Critical,Closed,Server,Security patch failed to deploy on 5 servers,WSUS deployment failed on a critical subset of application servers.,2024-12-02,2024-12-03,Helpdesk
+TICKET-182,High,Resolved,Network,WiFi authentication intermittent,Users on Guest network intermittently dropped; credentials re-entry required.,2024-11-23,2024-11-24,Security
+TICKET-183,Medium,Open,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-27,,IT_Support
+TICKET-184,Critical,In Progress,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-15,,Network_Ops
+TICKET-185,Low,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-22,,Helpdesk
+TICKET-186,Critical,Resolved,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-19,2024-11-21,Network_Ops
+TICKET-187,Low,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-15,2024-11-16,IT_Support
+TICKET-188,Medium,In Progress,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-28,,System_Admin
+TICKET-189,Low,In Progress,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-23,,System_Admin
+TICKET-190,Low,Resolved,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-25,2024-11-26,Security
+TICKET-191,Medium,In Progress,Server,Storage warning on File Server 1,Drive C: space dropping below 10%. Clear temporary files or extend volume.,2024-12-02,,Security
+TICKET-192,Medium,Open,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-19,,Helpdesk
+TICKET-193,High,In Progress,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-12-04,,Network_Ops
+TICKET-194,Medium,Resolved,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-17,2024-11-21,System_Admin
+TICKET-195,Medium,Open,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-12-01,,Helpdesk
+TICKET-196,Medium,Resolved,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-11-23,2024-11-25,IT_Support
+TICKET-197,Medium,Resolved,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-15,2024-11-19,System_Admin
+TICKET-198,Medium,Resolved,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-28,2024-12-02,System_Admin
+TICKET-199,Medium,Resolved,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-21,2024-11-26,System_Admin
+TICKET-200,High,In Progress,Server,Security patch failed to deploy on 5 servers,WSUS deployment failed on a critical subset of application servers.,2024-11-27,,System_Admin
+TICKET-201,Medium,Resolved,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-21,2024-11-22,Helpdesk
+TICKET-202,High,Open,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-22,,Network_Ops
+TICKET-203,High,Open,Network,WiFi authentication intermittent,Users on Guest network intermittently dropped; credentials re-entry required.,2024-11-28,,Network_Ops
+TICKET-204,Critical,Closed,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-11-27,2024-12-02,System_Admin
+TICKET-205,Medium,Open,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-28,,Network_Ops
+TICKET-206,Critical,Resolved,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-15,2024-11-19,Helpdesk
+TICKET-207,Medium,In Progress,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-12-01,,Helpdesk
+TICKET-208,Medium,Resolved,Software,Office 365 licensing issue,User cannot activate Outlook after update; receiving error code 0x80041003.,2024-11-27,2024-11-30,IT_Support
+TICKET-209,Critical,Open,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-25,,System_Admin
+TICKET-210,High,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-23,,Network_Ops
+TICKET-211,Critical,Closed,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-11-21,2024-11-24,System_Admin
+TICKET-212,Medium,In Progress,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-28,,Network_Ops
+TICKET-213,Critical,Resolved,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-16,2024-11-20,System_Admin
+TICKET-214,High,Resolved,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-17,2024-11-20,IT_Support
+TICKET-215,High,In Progress,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-12-04,,Helpdesk
+TICKET-216,High,Open,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-26,,Helpdesk
+TICKET-217,High,In Progress,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-29,,Security
+TICKET-218,Medium,Open,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-15,,Security
+TICKET-219,Critical,In Progress,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-27,,Security
+TICKET-220,Critical,In Progress,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-26,,Helpdesk
+TICKET-221,Medium,Resolved,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-24,2024-11-27,Network_Ops
+TICKET-222,High,Open,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-20,,Security
+TICKET-223,High,In Progress,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-24,,Network_Ops
+TICKET-224,High,Closed,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-17,2024-11-22,System_Admin
+TICKET-225,Medium,Resolved,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-25,2024-11-26,Helpdesk
+TICKET-226,Medium,Resolved,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-20,2024-11-25,Network_Ops
+TICKET-227,Low,Resolved,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-15,2024-11-16,System_Admin
+TICKET-228,Low,In Progress,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-24,,System_Admin
+TICKET-229,High,Open,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-12-04,,System_Admin
+TICKET-230,Critical,Closed,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-17,2024-11-19,Security
+TICKET-231,Medium,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-23,,System_Admin
+TICKET-232,Critical,Resolved,Network,WiFi authentication intermittent,Users on Guest network intermittently dropped; credentials re-entry required.,2024-11-24,2024-11-28,IT_Support
+TICKET-233,Low,Resolved,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-11-26,2024-11-28,IT_Support
+TICKET-234,Low,In Progress,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-27,,Helpdesk
+TICKET-235,High,Open,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-12-03,,Security
+TICKET-236,High,Open,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-28,,System_Admin
+TICKET-237,Low,Closed,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-28,2024-12-02,Network_Ops
+TICKET-238,Medium,Resolved,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-23,2024-11-27,IT_Support
+TICKET-239,Critical,Open,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-18,,Network_Ops
+TICKET-240,Critical,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-25,2024-11-29,IT_Support
+TICKET-241,High,Open,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-26,,Helpdesk
+TICKET-242,Medium,Resolved,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-12-01,2024-12-04,Security
+TICKET-243,Critical,Resolved,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-26,2024-11-30,Network_Ops
+TICKET-244,Low,Resolved,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-11-15,2024-11-16,System_Admin
+TICKET-245,Medium,In Progress,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-22,,Network_Ops
+TICKET-246,Medium,In Progress,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-25,,IT_Support
+TICKET-247,Medium,Open,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-16,,Network_Ops
+TICKET-248,High,Open,Software,Office 365 licensing issue,User cannot activate Outlook after update; receiving error code 0x80041003.,2024-12-03,,Helpdesk
+TICKET-249,Critical,In Progress,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-29,,Security
+TICKET-250,High,Open,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-12-03,,Security
+TICKET-251,High,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-21,,Helpdesk
+TICKET-252,Critical,Resolved,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-28,2024-12-01,Helpdesk
+TICKET-253,Medium,Resolved,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-17,2024-11-20,Network_Ops
+TICKET-254,High,Resolved,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-21,2024-11-25,IT_Support
+TICKET-255,Medium,Open,Network,WiFi authentication intermittent,Users on Guest network intermittently dropped; credentials re-entry required.,2024-11-22,,System_Admin
+TICKET-256,Low,Resolved,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-28,2024-12-03,IT_Support
+TICKET-257,High,In Progress,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-21,,System_Admin
+TICKET-258,Critical,Resolved,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-24,2024-11-26,System_Admin
+TICKET-259,Low,In Progress,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-18,,Helpdesk
+TICKET-260,High,In Progress,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-11-20,,Network_Ops
+TICKET-261,Low,In Progress,Server,Security patch failed to deploy on 5 servers,WSUS deployment failed on a critical subset of application servers.,2024-11-27,,Network_Ops
+TICKET-262,High,Open,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-11-24,,Network_Ops
+TICKET-263,Medium,In Progress,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-16,,Network_Ops
+TICKET-264,Low,Resolved,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-11-24,2024-11-27,Helpdesk
+TICKET-265,Critical,In Progress,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-23,,IT_Support
+TICKET-266,High,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-17,2024-11-20,Security
+TICKET-267,Low,Closed,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-26,2024-11-28,System_Admin
+TICKET-268,High,Open,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-12-02,,Helpdesk
+TICKET-269,Low,Closed,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-20,2024-11-21,IT_Support
+TICKET-270,Medium,Resolved,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-19,2024-11-24,Security
+TICKET-271,Critical,Closed,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-27,2024-11-28,Security
+TICKET-272,High,In Progress,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-18,,Security
+TICKET-273,Low,Resolved,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-22,2024-11-26,System_Admin
+TICKET-274,Low,Open,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-24,,Network_Ops
+TICKET-275,Medium,Open,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-28,,System_Admin
+TICKET-276,Critical,Resolved,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-17,2024-11-20,Helpdesk
+TICKET-277,Medium,Resolved,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-29,2024-12-01,IT_Support
+TICKET-278,High,Resolved,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-11-16,2024-11-21,System_Admin
+TICKET-279,High,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-20,2024-11-21,Helpdesk
+TICKET-280,Critical,In Progress,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-11-15,,Network_Ops
+TICKET-281,High,Open,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-28,,Security
+TICKET-282,Critical,Open,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-12-03,,Network_Ops
+TICKET-283,Critical,Resolved,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-19,2024-11-20,System_Admin
+TICKET-284,Medium,In Progress,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-25,,Helpdesk
+TICKET-285,Medium,Resolved,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-21,2024-11-24,System_Admin
+TICKET-286,High,Open,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-28,,Security
+TICKET-287,High,Resolved,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-15,2024-11-19,Security
+TICKET-288,Medium,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-20,,Network_Ops
+TICKET-289,Low,Closed,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-23,2024-11-27,Network_Ops
+TICKET-290,Medium,Resolved,Network,WiFi authentication intermittent,Users on Guest network intermittently dropped; credentials re-entry required.,2024-11-29,2024-12-02,IT_Support
+TICKET-291,High,Open,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-29,,System_Admin
+TICKET-292,High,Open,Security,Firewall rule modification request,Request to open port 443 inbound to new web server IP.,2024-11-24,,Network_Ops
+TICKET-293,Medium,Resolved,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-17,2024-11-18,Network_Ops
+TICKET-294,Critical,In Progress,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-19,,Helpdesk
+TICKET-295,Medium,Resolved,Server,Security patch failed to deploy on 5 servers,WSUS deployment failed on a critical subset of application servers.,2024-11-19,2024-11-20,Network_Ops
+TICKET-296,High,Closed,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-25,2024-11-28,IT_Support
+TICKET-297,High,Open,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-26,,IT_Support
+TICKET-298,Critical,Resolved,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-16,2024-11-18,System_Admin
+TICKET-299,Medium,In Progress,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-12-03,,Helpdesk
+TICKET-300,High,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-12-03,,Security
+TICKET-301,Low,Resolved,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-24,2024-11-28,Helpdesk
+TICKET-302,High,Open,Software,Office 365 licensing issue,User cannot activate Outlook after update; receiving error code 0x80041003.,2024-11-29,,Network_Ops
+TICKET-303,High,In Progress,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-17,,IT_Support
+TICKET-304,Low,Open,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-12-02,,System_Admin
+TICKET-305,Critical,In Progress,Server,Storage warning on File Server 1,Drive C: space dropping below 10%. Clear temporary files or extend volume.,2024-11-24,,Security
+TICKET-306,Low,Resolved,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-26,2024-11-29,Helpdesk
+TICKET-307,Medium,Resolved,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-18,2024-11-19,Helpdesk
+TICKET-308,Medium,Open,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-11-24,,Network_Ops
+TICKET-309,Medium,Open,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-26,,Network_Ops
+TICKET-310,High,Resolved,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-12-03,2024-12-04,Network_Ops
+TICKET-311,High,Open,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-11-23,,System_Admin
+TICKET-312,High,In Progress,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-15,,Security
+TICKET-313,Medium,Resolved,Server,Security patch failed to deploy on 5 servers,WSUS deployment failed on a critical subset of application servers.,2024-11-25,2024-11-30,IT_Support
+TICKET-314,Low,Resolved,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-16,2024-11-17,IT_Support
+TICKET-315,Low,Open,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-22,,Network_Ops
+TICKET-316,Medium,In Progress,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-12-02,,Security
+TICKET-317,Medium,Resolved,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-28,2024-12-03,Network_Ops
+TICKET-318,Critical,Open,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-21,,Security
+TICKET-319,Low,Resolved,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-22,2024-11-26,Security
+TICKET-320,Low,Resolved,Server,Security patch failed to deploy on 5 servers,WSUS deployment failed on a critical subset of application servers.,2024-11-29,2024-11-30,System_Admin
+TICKET-321,Low,Resolved,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-16,2024-11-18,IT_Support
+TICKET-322,Low,Open,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-16,,Network_Ops
+TICKET-323,Low,Closed,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-18,2024-11-22,System_Admin
+TICKET-324,Medium,Resolved,Server,Storage warning on File Server 1,Drive C: space dropping below 10%. Clear temporary files or extend volume.,2024-11-26,2024-12-01,IT_Support
+TICKET-325,Critical,Open,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-11-29,,System_Admin
+TICKET-326,Medium,In Progress,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-11-17,,Network_Ops
+TICKET-327,Critical,Closed,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-21,2024-11-23,System_Admin
+TICKET-328,Critical,Resolved,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-20,2024-11-23,Network_Ops
+TICKET-329,Low,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-27,,System_Admin
+TICKET-330,Critical,Closed,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-24,2024-11-29,Security
+TICKET-331,Medium,Resolved,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-18,2024-11-22,Network_Ops
+TICKET-332,Low,In Progress,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-11-23,,IT_Support
+TICKET-333,Medium,Open,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-20,,Network_Ops
+TICKET-334,Low,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-20,2024-11-23,Security
+TICKET-335,Medium,Open,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-11-26,,IT_Support
+TICKET-336,Medium,Resolved,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-24,2024-11-25,Network_Ops
+TICKET-337,High,Resolved,Server,Storage warning on File Server 1,Drive C: space dropping below 10%. Clear temporary files or extend volume.,2024-11-20,2024-11-25,System_Admin
+TICKET-338,High,In Progress,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-12-02,,Helpdesk
+TICKET-339,Medium,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-12-01,,Security
+TICKET-340,Medium,Resolved,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-11-23,2024-11-26,Security
+TICKET-341,Critical,Resolved,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-23,2024-11-25,Helpdesk
+TICKET-342,Low,Open,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-22,,Security
+TICKET-343,High,In Progress,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-11-22,,Helpdesk
+TICKET-344,Low,In Progress,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-17,,IT_Support
+TICKET-345,Critical,Open,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-24,,Network_Ops
+TICKET-346,Critical,Resolved,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-28,2024-12-01,System_Admin
+TICKET-347,Low,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-22,2024-11-25,Helpdesk
+TICKET-348,Low,In Progress,Peripherals,Cannot print to department printer,Printer P305 offline/not responding to job requests.,2024-12-02,,Helpdesk
+TICKET-349,Critical,Open,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-17,,System_Admin
+TICKET-350,Critical,Resolved,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-23,2024-11-24,System_Admin
+TICKET-351,Critical,In Progress,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-28,,Network_Ops
+TICKET-352,Medium,Open,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-25,,IT_Support
+TICKET-353,High,In Progress,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-20,,IT_Support
+TICKET-354,High,In Progress,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-24,,System_Admin
+TICKET-355,Critical,In Progress,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-11-24,,Network_Ops
+TICKET-356,Medium,In Progress,Server,Security patch failed to deploy on 5 servers,WSUS deployment failed on a critical subset of application servers.,2024-12-03,,Network_Ops
+TICKET-357,Low,Open,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-27,,Helpdesk
+TICKET-358,Low,Resolved,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-15,2024-11-19,Helpdesk
+TICKET-359,High,In Progress,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-22,,Network_Ops
+TICKET-360,Medium,Resolved,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-19,2024-11-20,IT_Support
+TICKET-361,High,Open,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-20,,Network_Ops
+TICKET-362,Critical,Resolved,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-11-15,2024-11-16,Security
+TICKET-363,Medium,Open,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-26,,Helpdesk
+TICKET-364,Low,Open,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-18,,Helpdesk
+TICKET-365,Medium,Open,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-22,,Helpdesk
+TICKET-366,Medium,Resolved,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-26,2024-11-28,Security
+TICKET-367,Low,In Progress,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-30,,Network_Ops
+TICKET-368,Medium,Resolved,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-11-28,2024-12-03,System_Admin
+TICKET-369,Low,Resolved,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-11-20,2024-11-24,Network_Ops
+TICKET-370,Medium,Resolved,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-27,2024-11-28,Network_Ops
+TICKET-371,Medium,In Progress,Peripherals,Cannot print to department printer,Printer P305 offline/not responding to job requests.,2024-11-25,,System_Admin
+TICKET-372,Low,Resolved,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-18,2024-11-22,Security
+TICKET-373,Critical,Resolved,Software,Office 365 licensing issue,User cannot activate Outlook after update; receiving error code 0x80041003.,2024-11-24,2024-11-29,Network_Ops
+TICKET-374,High,In Progress,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-20,,Security
+TICKET-375,Low,Open,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-20,,Helpdesk
+TICKET-376,Low,In Progress,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-28,,Helpdesk
+TICKET-377,Medium,Resolved,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-29,2024-12-03,System_Admin
+TICKET-378,Low,Open,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-22,,System_Admin
+TICKET-379,Low,Open,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-20,,System_Admin
+TICKET-380,Low,Resolved,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-15,2024-11-17,IT_Support
+TICKET-381,Critical,Closed,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-26,2024-11-27,Network_Ops
+TICKET-382,Medium,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-19,2024-11-20,IT_Support
+TICKET-383,Medium,Resolved,Server,Security patch failed to deploy on 5 servers,WSUS deployment failed on a critical subset of application servers.,2024-11-21,2024-11-23,Helpdesk
+TICKET-384,Critical,Open,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-12-01,,Helpdesk
+TICKET-385,Critical,Open,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-25,,IT_Support
+TICKET-386,Low,Resolved,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-11-21,2024-11-25,IT_Support
+TICKET-387,Low,Resolved,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-27,2024-11-29,Helpdesk
+TICKET-388,Low,In Progress,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-12-01,,System_Admin
+TICKET-389,Medium,Open,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-27,,System_Admin
+TICKET-390,Low,Resolved,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-16,2024-11-21,Helpdesk
+TICKET-391,Medium,Open,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-29,,Security
+TICKET-392,High,Open,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-25,,Helpdesk
+TICKET-393,Low,Resolved,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-20,2024-11-23,System_Admin
+TICKET-394,Critical,Resolved,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-22,2024-11-24,IT_Support
+TICKET-395,High,Open,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-21,,IT_Support
+TICKET-396,Critical,In Progress,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-29,,IT_Support
+TICKET-397,Critical,Closed,Peripherals,Cannot print to department printer,Printer P305 offline/not responding to job requests.,2024-11-28,2024-12-03,System_Admin
+TICKET-398,Low,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-12-03,2024-12-04,Network_Ops
+TICKET-399,High,Open,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-18,,Network_Ops
+TICKET-400,High,Open,Network,WiFi authentication intermittent,Users on Guest network intermittently dropped; credentials re-entry required.,2024-11-29,,Security
+TICKET-401,Critical,In Progress,Server,Storage warning on File Server 1,Drive C: space dropping below 10%. Clear temporary files or extend volume.,2024-11-17,,IT_Support
+TICKET-402,High,Resolved,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-22,2024-11-24,System_Admin
+TICKET-403,Medium,Resolved,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-19,2024-11-20,Helpdesk
+TICKET-404,High,Open,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-12-02,,IT_Support
+TICKET-405,High,In Progress,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-11-22,,Helpdesk
+TICKET-406,High,Open,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-12-03,,System_Admin
+TICKET-407,Critical,Resolved,Peripherals,Cannot print to department printer,Printer P305 offline/not responding to job requests.,2024-11-20,2024-11-22,Network_Ops
+TICKET-408,Medium,Open,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-19,,Helpdesk
+TICKET-409,Low,In Progress,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-11-19,,Security
+TICKET-410,High,Resolved,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-22,2024-11-23,IT_Support
+TICKET-411,Low,Closed,Security,Firewall rule modification request,Request to open port 443 inbound to new web server IP.,2024-11-23,2024-11-25,Security
+TICKET-412,Critical,In Progress,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-11-20,,Network_Ops
+TICKET-413,Critical,Open,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-25,,Network_Ops
+TICKET-414,Critical,Closed,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-17,2024-11-20,System_Admin
+TICKET-415,Medium,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-28,2024-11-30,Network_Ops
+TICKET-416,Low,Resolved,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-11-21,2024-11-25,System_Admin
+TICKET-417,Medium,Open,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-23,,Network_Ops
+TICKET-418,Low,Resolved,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-18,2024-11-20,Helpdesk
+TICKET-419,Medium,Resolved,Network,WiFi authentication intermittent,Users on Guest network intermittently dropped; credentials re-entry required.,2024-11-25,2024-11-27,Network_Ops
+TICKET-420,Medium,Resolved,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-25,2024-11-28,Security
+TICKET-421,High,Open,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-28,,Network_Ops
+TICKET-422,Critical,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-19,,Security
+TICKET-423,Low,Closed,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-17,2024-11-21,IT_Support
+TICKET-424,High,Open,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-20,,Network_Ops
+TICKET-425,Low,In Progress,Software,Office 365 licensing issue,User cannot activate Outlook after update; receiving error code 0x80041003.,2024-11-21,,Security
+TICKET-426,Low,In Progress,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-26,,Helpdesk
+TICKET-427,High,Resolved,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-18,2024-11-22,IT_Support
+TICKET-428,High,Open,Server,Storage warning on File Server 1,Drive C: space dropping below 10%. Clear temporary files or extend volume.,2024-11-26,,Helpdesk
+TICKET-429,Critical,In Progress,Software,New software installation request (Photoshop),Request for installation of Adobe Photoshop on Marketing Dept. workstation.,2024-11-23,,IT_Support
+TICKET-430,Low,Resolved,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-11-28,2024-12-03,System_Admin
+TICKET-431,Critical,Resolved,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-23,2024-11-26,Security
+TICKET-432,Low,Open,Hardware,Faulty webcam for meetings,Integrated camera not recognized by Windows or Teams.,2024-12-03,,System_Admin
+TICKET-433,Low,Closed,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-11-20,2024-11-25,System_Admin
+TICKET-434,Medium,Closed,Server,Security patch failed to deploy on 5 servers,WSUS deployment failed on a critical subset of application servers.,2024-11-17,2024-11-22,Security
+TICKET-435,Medium,Resolved,Peripherals,Cannot print to department printer,Printer P305 offline/not responding to job requests.,2024-11-28,2024-11-30,Network_Ops
+TICKET-436,High,Open,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-25,,Network_Ops
+TICKET-437,High,Open,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-15,,IT_Support
+TICKET-438,Low,In Progress,Security,Firewall rule modification request,Request to open port 443 inbound to new web server IP.,2024-11-29,,IT_Support
+TICKET-439,Critical,Open,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-11-27,,System_Admin
+TICKET-440,Medium,Resolved,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-16,2024-11-19,Security
+TICKET-441,Low,Open,Server,Server rack 4 overheating alarm,Received critical temperature alarm from data centre. Requires immediate remote investigation.,2024-11-20,,Helpdesk
+TICKET-442,Critical,Resolved,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-27,2024-12-01,System_Admin
+TICKET-443,Low,Resolved,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-11-25,2024-11-29,IT_Support
+TICKET-444,High,Open,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-11-24,,Network_Ops
+TICKET-445,Low,Closed,Access,New employee access request,New hire needs standard access to ERP; CRM; and shared drives.,2024-11-29,2024-12-04,Security
+TICKET-446,Critical,Resolved,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-25,2024-11-29,Network_Ops
+TICKET-447,Medium,In Progress,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-21,,Security
+TICKET-448,High,Open,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-16,,IT_Support
+TICKET-449,Medium,Open,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-12-03,,System_Admin
+TICKET-450,Medium,Closed,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-16,2024-11-17,System_Admin
+TICKET-451,Low,Open,Software,Office 365 licensing issue,User cannot activate Outlook after update; receiving error code 0x80041003.,2024-11-22,,Network_Ops
+TICKET-452,Medium,Resolved,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-11-25,2024-11-28,Security
+TICKET-453,High,In Progress,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-23,,Helpdesk
+TICKET-454,Critical,Closed,Server,Security patch failed to deploy on 5 servers,WSUS deployment failed on a critical subset of application servers.,2024-11-27,2024-11-28,Security
+TICKET-455,High,In Progress,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-15,,IT_Support
+TICKET-456,Critical,Resolved,Network,WiFi authentication intermittent,Users on Guest network intermittently dropped; credentials re-entry required.,2024-11-26,2024-12-01,System_Admin
+TICKET-457,Low,Resolved,Peripherals,Cannot print to department printer,Printer P305 offline/not responding to job requests.,2024-11-24,2024-11-29,Security
+TICKET-458,High,In Progress,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-11-21,,IT_Support
+TICKET-459,High,Open,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-12-02,,System_Admin
+TICKET-460,Medium,Resolved,Server,Server rack 4 overheating alarm,Received critical temperature alarm from data centre. Requires immediate remote investigation.,2024-11-16,2024-11-18,Helpdesk
+TICKET-461,Low,Closed,Network,VPN slow connectivity,Experiencing intermittent packet loss and slow connection when using VPN from home.,2024-11-26,2024-11-27,System_Admin
+TICKET-462,Low,Open,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-20,,Security
+TICKET-463,Critical,Resolved,Network,Shared drive access slow,Read/write speed to shared file server is unusably slow.,2024-11-21,2024-11-23,Security
+TICKET-464,Critical,Open,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-29,,Helpdesk
+TICKET-465,Low,Closed,Peripherals,Label printer fault,Zebra label printer feeding blank labels. Needs calibration.,2024-11-16,2024-11-20,System_Admin
+TICKET-466,Low,In Progress,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-29,,Helpdesk
+TICKET-467,Medium,Open,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-11-20,,System_Admin
+TICKET-468,High,Resolved,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-18,2024-11-20,IT_Support
+TICKET-469,High,In Progress,Access,Access denied to shared folder S:,User confirmed membership in correct AD group; but permission is denied.,2024-12-01,,Helpdesk
+TICKET-470,Low,In Progress,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-27,,IT_Support
+TICKET-471,Critical,Resolved,Software,PDF editor crashing on launch,Adobe Acrobat Pro closes immediately after attempting to open any document.,2024-11-16,2024-11-20,Helpdesk
+TICKET-472,Medium,Resolved,Messaging,Cannot send large attachments,Outlook returning an error about exceeding attachment size limit (25MB).,2024-11-19,2024-11-23,Security
+TICKET-473,Medium,Open,Software,Office 365 licensing issue,User cannot activate Outlook after update; receiving error code 0x80041003.,2024-11-17,,Helpdesk
+TICKET-474,Low,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-11-16,,Helpdesk
+TICKET-475,High,In Progress,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-12-04,,Helpdesk
+TICKET-476,High,Open,Network,WiFi authentication intermittent,Users on Guest network intermittently dropped; credentials re-entry required.,2024-11-20,,IT_Support
+TICKET-477,High,Resolved,Messaging,Email service down in Marketing,External/Internal email not flowing for the entire Marketing department.,2024-11-15,2024-11-17,System_Admin
+TICKET-478,Low,In Progress,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-12-01,,Network_Ops
+TICKET-479,Medium,Open,Server,Security patch failed to deploy on 5 servers,WSUS deployment failed on a critical subset of application servers.,2024-11-23,,Helpdesk
+TICKET-480,Low,Resolved,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-18,2024-11-23,Helpdesk
+TICKET-481,Low,Resolved,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-11-21,2024-11-24,Network_Ops
+TICKET-482,Medium,In Progress,Hardware,Laptop screen replacement,Screen is cracked and needs replacing ASAP. User needs loaner device.,2024-11-26,,Helpdesk
+TICKET-483,High,In Progress,Server,Server rack 4 overheating alarm,Received critical temperature alarm from data centre. Requires immediate remote investigation.,2024-11-27,,Helpdesk
+TICKET-484,Low,Open,Hardware,Desktop freezing randomly,Computer locks up; requires hard reboot 5-10 times daily.,2024-12-02,,System_Admin
+TICKET-485,Low,Closed,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-17,2024-11-22,Helpdesk
+TICKET-486,High,In Progress,Peripherals,Scanner setup required,Desk scanner needs driver installation and configuration for document management.,2024-12-03,,Network_Ops
+TICKET-487,High,In Progress,Security,Antivirus signature outdated on endpoint,AV console reports machine requires update and is out of compliance.,2024-11-20,,System_Admin
+TICKET-488,Critical,Resolved,Messaging,Shared mailbox access needed,User requires delegate access to 'Info@company.com' mailbox.,2024-11-23,2024-11-27,Network_Ops
+TICKET-489,Low,In Progress,Peripherals,Cannot print to department printer,Printer P305 offline/not responding to job requests.,2024-11-27,,IT_Support
+TICKET-490,High,Open,Network,No internet access in Room 305,Port seems dead. Check wall jack and switch port patching.,2024-11-24,,Security
+TICKET-491,High,Open,Security,Phishing reported - Account lockout,User reported suspicious email and immediately locked account for safety.,2024-12-02,,System_Admin
+TICKET-492,Medium,Resolved,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-23,2024-11-28,IT_Support
+TICKET-493,High,In Progress,Hardware,Monitor cable missing,New employee setup; DVI/HDMI cable for second monitor is required.,2024-11-21,,Helpdesk
+TICKET-494,Critical,Closed,Server,Database server unresponsive,SQL server instance is not accepting connections. Check services/logs.,2024-11-28,2024-12-03,IT_Support
+TICKET-495,Low,Open,Messaging,Spam filter tuning request,Too many false positives (legitimate emails marked as spam).,2024-12-02,,Security
+TICKET-496,Critical,Closed,Access,Password reset requested,User locked out due to forgotten password. Urgent reset required.,2024-11-21,2024-11-24,Network_Ops
+TICKET-497,Low,Resolved,Security,Suspicious network traffic alert,IDS triggered alert for unauthorized port scanning activity.,2024-11-20,2024-11-25,Network_Ops
+TICKET-498,High,Open,Software,Windows Update failure,Patch Tuesday updates repeatedly fail with 'Rollback changes' error.,2024-11-26,,Helpdesk
+TICKET-499,Critical,Open,Access,Multi-factor authentication reset,User lost phone/authenticator device; MFA token needs reset.,2024-12-03,,System_Admin
+TICKET-500,Critical,In Progress,Peripherals,New Mouse/Keyboard request,Standard wireless peripheral set needed for workstation upgrade.,2024-11-27,,IT_Support

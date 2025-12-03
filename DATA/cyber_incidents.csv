@@ -4,3 +4,449 @@ date,incident_type,severity,status,description,reported_by
 2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
 2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
 2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-24,DDoS,High,Open,Sudden massive traffic surge on e-commerce frontend,security_team
+2024-11-25,Weak Password,Low,Resolved,User failed internal audit with 'password123',charlie
+2024-11-25,Configuration Error,Medium,Closed,Misconfigured firewall temporarily exposed a development server,security_team
+2024-11-26,Insider Threat,Critical,Open,Large data transfer detected from a terminated employee's account,security_team
+2024-11-27,Phishing,Medium,Resolved,Executive team member reported a targeted spear-phishing email,bob
+2024-11-28,Ransomware,Critical,Open,Production database encrypted; ransom demand received,security_team
+2024-11-29,Unauthorised Access,Low,Closed,Failed login attempts on a test server,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-12-06,Vulnerability Scan,Low,Closed,Routine scanner identified outdated SSH protocol on a staging server,alice
+2024-12-07,Brute Force,Medium,Resolved,Temporary account lockouts on the VPN portal due to repeated failed logins,security_team
+2024-12-08,Data Exfiltration,Critical,Open,Database query logs show massive export activity by an internal user,security_team
+2024-12-09,Misconfiguration,Medium,Closed,S3 bucket policy was temporarily set to public read/write,bob
+2024-12-10,Web Defacement,High,Resolved,Marketing website homepage was briefly replaced with political message,charlie
+2024-12-11,Phishing,Medium,Closed,15 employees clicked on a fake internal memo email,alice
+2024-12-12,Unauthorised Access,High,Open,Suspicious API key usage detected from an unknown region,security_team
+2024-12-13,Social Engineering,Medium,Resolved,Attacker gained brief access to a temporary password via phone call,bob
+2024-12-14,Hardware Tampering,Low,Closed,Unregistered USB device found plugged into an office workstation,charlie
+2024-12-15,Cloud Service Hijack,Critical,Open,Service account compromised and used to spin up unauthorized resources,security_team
+2024-12-16,DDoS,High,Resolved,Mitigation services successfully stopped a volumetric attack within 5 minutes,security_team
+2024-12-17,Malware,Medium,Closed,Zero-day virus signature pushed to all endpoints and confirmed removal,alice
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-24,DDoS,High,Open,Sudden massive traffic surge on e-commerce frontend,security_team
+2024-11-25,Weak Password,Low,Resolved,User failed internal audit with 'password123',charlie
+2024-11-25,Configuration Error,Medium,Closed,Misconfigured firewall temporarily exposed a development server,security_team
+2024-11-26,Insider Threat,Critical,Open,Large data transfer detected from a terminated employee's account,security_team
+2024-11-27,Phishing,Medium,Resolved,Executive team member reported a targeted spear-phishing email,bob
+2024-11-28,Ransomware,Critical,Open,Production database encrypted; ransom demand received,security_team
+2024-11-29,Unauthorised Access,Low,Closed,Failed login attempts on a test server,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-12-06,Vulnerability Scan,Low,Closed,Routine scanner identified outdated SSH protocol on a staging server,alice
+2024-12-07,Brute Force,Medium,Resolved,Temporary account lockouts on the VPN portal due to repeated failed logins,security_team
+2024-12-08,Data Exfiltration,Critical,Open,Database query logs show massive export activity by an internal user,security_team
+2024-12-09,Misconfiguration,Medium,Closed,S3 bucket policy was temporarily set to public read/write,bob
+2024-12-10,Web Defacement,High,Resolved,Marketing website homepage was briefly replaced with political message,charlie
+2024-12-11,Phishing,Medium,Closed,15 employees clicked on a fake internal memo email,alice
+2024-12-12,Unauthorised Access,High,Open,Suspicious API key usage detected from an unknown region,security_team
+2024-12-13,Social Engineering,Medium,Resolved,Attacker gained brief access to a temporary password via phone call,bob
+2024-12-14,Hardware Tampering,Low,Closed,Unregistered USB device found plugged into an office workstation,charlie
+2024-12-15,Cloud Service Hijack,Critical,Open,Service account compromised and used to spin up unauthorized resources,security_team
+2024-12-16,DDoS,High,Resolved,Mitigation services successfully stopped a volumetric attack within 5 minutes,security_team
+2024-12-17,Malware,Medium,Closed,Zero-day virus signature pushed to all endpoints and confirmed removal,alice
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-24,DDoS,High,Open,Sudden massive traffic surge on e-commerce frontend,security_team
+2024-11-25,Weak Password,Low,Resolved,User failed internal audit with 'password123',charlie
+2024-11-25,Configuration Error,Medium,Closed,Misconfigured firewall temporarily exposed a development server,security_team
+2024-11-26,Insider Threat,Critical,Open,Large data transfer detected from a terminated employee's account,security_team
+2024-11-27,Phishing,Medium,Resolved,Executive team member reported a targeted spear-phishing email,bob
+2024-11-28,Ransomware,Critical,Open,Production database encrypted; ransom demand received,security_team
+2024-11-29,Unauthorised Access,Low,Closed,Failed login attempts on a test server,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-12-06,Vulnerability Scan,Low,Closed,Routine scanner identified outdated SSH protocol on a staging server,alice
+2024-12-07,Brute Force,Medium,Resolved,Temporary account lockouts on the VPN portal due to repeated failed logins,security_team
+2024-12-08,Data Exfiltration,Critical,Open,Database query logs show massive export activity by an internal user,security_team
+2024-12-09,Misconfiguration,Medium,Closed,S3 bucket policy was temporarily set to public read/write,bob
+2024-12-10,Web Defacement,High,Resolved,Marketing website homepage was briefly replaced with political message,charlie
+2024-12-11,Phishing,Medium,Closed,15 employees clicked on a fake internal memo email,alice
+2024-12-12,Unauthorised Access,High,Open,Suspicious API key usage detected from an unknown region,security_team
+2024-12-13,Social Engineering,Medium,Resolved,Attacker gained brief access to a temporary password via phone call,bob
+2024-12-14,Hardware Tampering,Low,Closed,Unregistered USB device found plugged into an office workstation,charlie
+2024-12-15,Cloud Service Hijack,Critical,Open,Service account compromised and used to spin up unauthorized resources,security_team
+2024-12-16,DDoS,High,Resolved,Mitigation services successfully stopped a volumetric attack within 5 minutes,security_team
+2024-12-17,Malware,Medium,Closed,Zero-day virus signature pushed to all endpoints and confirmed removal,alice
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-24,DDoS,High,Open,Sudden massive traffic surge on e-commerce frontend,security_team
+2024-11-25,Weak Password,Low,Resolved,User failed internal audit with 'password123',charlie
+2024-11-25,Configuration Error,Medium,Closed,Misconfigured firewall temporarily exposed a development server,security_team
+2024-11-26,Insider Threat,Critical,Open,Large data transfer detected from a terminated employee's account,security_team
+2024-11-27,Phishing,Medium,Resolved,Executive team member reported a targeted spear-phishing email,bob
+2024-11-28,Ransomware,Critical,Open,Production database encrypted; ransom demand received,security_team
+2024-11-29,Unauthorised Access,Low,Closed,Failed login attempts on a test server,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-12-06,Vulnerability Scan,Low,Closed,Routine scanner identified outdated SSH protocol on a staging server,alice
+2024-12-07,Brute Force,Medium,Resolved,Temporary account lockouts on the VPN portal due to repeated failed logins,security_team
+2024-12-08,Data Exfiltration,Critical,Open,Database query logs show massive export activity by an internal user,security_team
+2024-12-09,Misconfiguration,Medium,Closed,S3 bucket policy was temporarily set to public read/write,bob
+2024-12-10,Web Defacement,High,Resolved,Marketing website homepage was briefly replaced with political message,charlie
+2024-12-11,Phishing,Medium,Closed,15 employees clicked on a fake internal memo email,alice
+2024-12-12,Unauthorised Access,High,Open,Suspicious API key usage detected from an unknown region,security_team
+2024-12-13,Social Engineering,Medium,Resolved,Attacker gained brief access to a temporary password via phone call,bob
+2024-12-14,Hardware Tampering,Low,Closed,Unregistered USB device found plugged into an office workstation,charlie
+2024-12-15,Cloud Service Hijack,Critical,Open,Service account compromised and used to spin up unauthorized resources,security_team
+2024-12-16,DDoS,High,Resolved,Mitigation services successfully stopped a volumetric attack within 5 minutes,security_team
+2024-12-17,Malware,Medium,Closed,Zero-day virus signature pushed to all endpoints and confirmed removal,alice
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-24,DDoS,High,Open,Sudden massive traffic surge on e-commerce frontend,security_team
+2024-11-25,Weak Password,Low,Resolved,User failed internal audit with 'password123',charlie
+2024-11-25,Configuration Error,Medium,Closed,Misconfigured firewall temporarily exposed a development server,security_team
+2024-11-26,Insider Threat,Critical,Open,Large data transfer detected from a terminated employee's account,security_team
+2024-11-27,Phishing,Medium,Resolved,Executive team member reported a targeted spear-phishing email,bob
+2024-11-28,Ransomware,Critical,Open,Production database encrypted; ransom demand received,security_team
+2024-11-29,Unauthorised Access,Low,Closed,Failed login attempts on a test server,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-12-06,Vulnerability Scan,Low,Closed,Routine scanner identified outdated SSH protocol on a staging server,alice
+2024-12-07,Brute Force,Medium,Resolved,Temporary account lockouts on the VPN portal due to repeated failed logins,security_team
+2024-12-08,Data Exfiltration,Critical,Open,Database query logs show massive export activity by an internal user,security_team
+2024-12-09,Misconfiguration,Medium,Closed,S3 bucket policy was temporarily set to public read/write,bob
+2024-12-10,Web Defacement,High,Resolved,Marketing website homepage was briefly replaced with political message,charlie
+2024-12-11,Phishing,Medium,Closed,15 employees clicked on a fake internal memo email,alice
+2024-12-12,Unauthorised Access,High,Open,Suspicious API key usage detected from an unknown region,security_team
+2024-12-13,Social Engineering,Medium,Resolved,Attacker gained brief access to a temporary password via phone call,bob
+2024-12-14,Hardware Tampering,Low,Closed,Unregistered USB device found plugged into an office workstation,charlie
+2024-12-15,Cloud Service Hijack,Critical,Open,Service account compromised and used to spin up unauthorized resources,security_team
+2024-12-16,DDoS,High,Resolved,Mitigation services successfully stopped a volumetric attack within 5 minutes,security_team
+2024-12-17,Malware,Medium,Closed,Zero-day virus signature pushed to all endpoints and confirmed removal,alice
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-24,DDoS,High,Open,Sudden massive traffic surge on e-commerce frontend,security_team
+2024-11-25,Weak Password,Low,Resolved,User failed internal audit with 'password123',charlie
+2024-11-25,Configuration Error,Medium,Closed,Misconfigured firewall temporarily exposed a development server,security_team
+2024-11-26,Insider Threat,Critical,Open,Large data transfer detected from a terminated employee's account,security_team
+2024-11-27,Phishing,Medium,Resolved,Executive team member reported a targeted spear-phishing email,bob
+2024-11-28,Ransomware,Critical,Open,Production database encrypted; ransom demand received,security_team
+2024-11-29,Unauthorised Access,Low,Closed,Failed login attempts on a test server,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-12-06,Vulnerability Scan,Low,Closed,Routine scanner identified outdated SSH protocol on a staging server,alice
+2024-12-07,Brute Force,Medium,Resolved,Temporary account lockouts on the VPN portal due to repeated failed logins,security_team
+2024-12-08,Data Exfiltration,Critical,Open,Database query logs show massive export activity by an internal user,security_team
+2024-12-09,Misconfiguration,Medium,Closed,S3 bucket policy was temporarily set to public read/write,bob
+2024-12-10,Web Defacement,High,Resolved,Marketing website homepage was briefly replaced with political message,charlie
+2024-12-11,Phishing,Medium,Closed,15 employees clicked on a fake internal memo email,alice
+2024-12-12,Unauthorised Access,High,Open,Suspicious API key usage detected from an unknown region,security_team
+2024-12-13,Social Engineering,Medium,Resolved,Attacker gained brief access to a temporary password via phone call,bob
+2024-12-14,Hardware Tampering,Low,Closed,Unregistered USB device found plugged into an office workstation,charlie
+2024-12-15,Cloud Service Hijack,Critical,Open,Service account compromised and used to spin up unauthorized resources,security_team
+2024-12-16,DDoS,High,Resolved,Mitigation services successfully stopped a volumetric attack within 5 minutes,security_team
+2024-12-17,Malware,Medium,Closed,Zero-day virus signature pushed to all endpoints and confirmed removal,alice
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-24,DDoS,High,Open,Sudden massive traffic surge on e-commerce frontend,security_team
+2024-11-25,Weak Password,Low,Resolved,User failed internal audit with 'password123',charlie
+2024-11-25,Configuration Error,Medium,Closed,Misconfigured firewall temporarily exposed a development server,security_team
+2024-11-26,Insider Threat,Critical,Open,Large data transfer detected from a terminated employee's account,security_team
+2024-11-27,Phishing,Medium,Resolved,Executive team member reported a targeted spear-phishing email,bob
+2024-11-28,Ransomware,Critical,Open,Production database encrypted; ransom demand received,security_team
+2024-11-29,Unauthorised Access,Low,Closed,Failed login attempts on a test server,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-12-06,Vulnerability Scan,Low,Closed,Routine scanner identified outdated SSH protocol on a staging server,alice
+2024-12-07,Brute Force,Medium,Resolved,Temporary account lockouts on the VPN portal due to repeated failed logins,security_team
+2024-12-08,Data Exfiltration,Critical,Open,Database query logs show massive export activity by an internal user,security_team
+2024-12-09,Misconfiguration,Medium,Closed,S3 bucket policy was temporarily set to public read/write,bob
+2024-12-10,Web Defacement,High,Resolved,Marketing website homepage was briefly replaced with political message,charlie
+2024-12-11,Phishing,Medium,Closed,15 employees clicked on a fake internal memo email,alice
+2024-12-12,Unauthorised Access,High,Open,Suspicious API key usage detected from an unknown region,security_team
+2024-12-13,Social Engineering,Medium,Resolved,Attacker gained brief access to a temporary password via phone call,bob
+2024-12-14,Hardware Tampering,Low,Closed,Unregistered USB device found plugged into an office workstation,charlie
+2024-12-15,Cloud Service Hijack,Critical,Open,Service account compromised and used to spin up unauthorized resources,security_team
+2024-12-16,DDoS,High,Resolved,Mitigation services successfully stopped a volumetric attack within 5 minutes,security_team
+2024-12-17,Malware,Medium,Closed,Zero-day virus signature pushed to all endpoints and confirmed removal,alice
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-24,DDoS,High,Open,Sudden massive traffic surge on e-commerce frontend,security_team
+2024-11-25,Weak Password,Low,Resolved,User failed internal audit with 'password123',charlie
+2024-11-25,Configuration Error,Medium,Closed,Misconfigured firewall temporarily exposed a development server,security_team
+2024-11-26,Insider Threat,Critical,Open,Large data transfer detected from a terminated employee's account,security_team
+2024-11-27,Phishing,Medium,Resolved,Executive team member reported a targeted spear-phishing email,bob
+2024-11-28,Ransomware,Critical,Open,Production database encrypted; ransom demand received,security_team
+2024-11-29,Unauthorised Access,Low,Closed,Failed login attempts on a test server,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-12-06,Vulnerability Scan,Low,Closed,Routine scanner identified outdated SSH protocol on a staging server,alice
+2024-12-07,Brute Force,Medium,Resolved,Temporary account lockouts on the VPN portal due to repeated failed logins,security_team
+2024-12-08,Data Exfiltration,Critical,Open,Database query logs show massive export activity by an internal user,security_team
+2024-12-09,Misconfiguration,Medium,Closed,S3 bucket policy was temporarily set to public read/write,bob
+2024-12-10,Web Defacement,High,Resolved,Marketing website homepage was briefly replaced with political message,charlie
+2024-12-11,Phishing,Medium,Closed,15 employees clicked on a fake internal memo email,alice
+2024-12-12,Unauthorised Access,High,Open,Suspicious API key usage detected from an unknown region,security_team
+2024-12-13,Social Engineering,Medium,Resolved,Attacker gained brief access to a temporary password via phone call,bob
+2024-12-14,Hardware Tampering,Low,Closed,Unregistered USB device found plugged into an office workstation,charlie
+2024-12-15,Cloud Service Hijack,Critical,Open,Service account compromised and used to spin up unauthorized resources,security_team
+2024-12-16,DDoS,High,Resolved,Mitigation services successfully stopped a volumetric attack within 5 minutes,security_team
+2024-12-17,Malware,Medium,Closed,Zero-day virus signature pushed to all endpoints and confirmed removal,alice
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-24,DDoS,High,Open,Sudden massive traffic surge on e-commerce frontend,security_team
+2024-11-25,Weak Password,Low,Resolved,User failed internal audit with 'password123',charlie
+2024-11-25,Configuration Error,Medium,Closed,Misconfigured firewall temporarily exposed a development server,security_team
+2024-11-26,Insider Threat,Critical,Open,Large data transfer detected from a terminated employee's account,security_team
+2024-11-27,Phishing,Medium,Resolved,Executive team member reported a targeted spear-phishing email,bob
+2024-11-28,Ransomware,Critical,Open,Production database encrypted; ransom demand received,security_team
+2024-11-29,Unauthorised Access,Low,Closed,Failed login attempts on a test server,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-12-06,Vulnerability Scan,Low,Closed,Routine scanner identified outdated SSH protocol on a staging server,alice
+2024-12-07,Brute Force,Medium,Resolved,Temporary account lockouts on the VPN portal due to repeated failed logins,security_team
+2024-12-08,Data Exfiltration,Critical,Open,Database query logs show massive export activity by an internal user,security_team
+2024-12-09,Misconfiguration,Medium,Closed,S3 bucket policy was temporarily set to public read/write,bob
+2024-12-10,Web Defacement,High,Resolved,Marketing website homepage was briefly replaced with political message,charlie
+2024-12-11,Phishing,Medium,Closed,15 employees clicked on a fake internal memo email,alice
+2024-12-12,Unauthorised Access,High,Open,Suspicious API key usage detected from an unknown region,security_team
+2024-12-13,Social Engineering,Medium,Resolved,Attacker gained brief access to a temporary password via phone call,bob
+2024-12-14,Hardware Tampering,Low,Closed,Unregistered USB device found plugged into an office workstation,charlie
+2024-12-15,Cloud Service Hijack,Critical,Open,Service account compromised and used to spin up unauthorized resources,security_team
+2024-12-16,DDoS,High,Resolved,Mitigation services successfully stopped a volumetric attack within 5 minutes,security_team
+2024-12-17,Malware,Medium,Closed,Zero-day virus signature pushed to all endpoints and confirmed removal,alice
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-24,DDoS,High,Open,Sudden massive traffic surge on e-commerce frontend,security_team
+2024-11-25,Weak Password,Low,Resolved,User failed internal audit with 'password123',charlie
+2024-11-25,Configuration Error,Medium,Closed,Misconfigured firewall temporarily exposed a development server,security_team
+2024-11-26,Insider Threat,Critical,Open,Large data transfer detected from a terminated employee's account,security_team
+2024-11-27,Phishing,Medium,Resolved,Executive team member reported a targeted spear-phishing email,bob
+2024-11-28,Ransomware,Critical,Open,Production database encrypted; ransom demand received,security_team
+2024-11-29,Unauthorised Access,Low,Closed,Failed login attempts on a test server,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-12-06,Vulnerability Scan,Low,Closed,Routine scanner identified outdated SSH protocol on a staging server,alice
+2024-12-07,Brute Force,Medium,Resolved,Temporary account lockouts on the VPN portal due to repeated failed logins,security_team
+2024-12-08,Data Exfiltration,Critical,Open,Database query logs show massive export activity by an internal user,security_team
+2024-12-09,Misconfiguration,Medium,Closed,S3 bucket policy was temporarily set to public read/write,bob
+2024-12-10,Web Defacement,High,Resolved,Marketing website homepage was briefly replaced with political message,charlie
+2024-12-11,Phishing,Medium,Closed,15 employees clicked on a fake internal memo email,alice
+2024-12-12,Unauthorised Access,High,Open,Suspicious API key usage detected from an unknown region,security_team
+2024-12-13,Social Engineering,Medium,Resolved,Attacker gained brief access to a temporary password via phone call,bob
+2024-12-14,Hardware Tampering,Low,Closed,Unregistered USB device found plugged into an office workstation,charlie
+2024-12-15,Cloud Service Hijack,Critical,Open,Service account compromised and used to spin up unauthorized resources,security_team
+2024-12-16,DDoS,High,Resolved,Mitigation services successfully stopped a volumetric attack within 5 minutes,security_team
+2024-12-17,Malware,Medium,Closed,Zero-day virus signature pushed to all endpoints and confirmed removal,alice
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-11-20,Phishing,Medium,Closed,User received suspicious link via email,alice
+2024-11-21,Malware,High,Open,Detected unusual file encryption activity,security_team
+2024-11-21,Unauthorised Access,Critical,Open,Server login attempt from foreign IP,security_team
+2024-11-22,Data Leak,High,Resolved,Employee mistakenly uploaded sensitive file to public cloud,bob
+2024-11-23,Malware,Medium,Closed,Endpoint protection flagged known adware,alice
+2024-11-24,DDoS,High,Open,Sudden massive traffic surge on e-commerce frontend,security_team
+2024-11-25,Weak Password,Low,Resolved,User failed internal audit with 'password123',charlie
+2024-11-25,Configuration Error,Medium,Closed,Misconfigured firewall temporarily exposed a development server,security_team
+2024-11-26,Insider Threat,Critical,Open,Large data transfer detected from a terminated employee's account,security_team
+2024-11-27,Phishing,Medium,Resolved,Executive team member reported a targeted spear-phishing email,bob
+2024-11-28,Ransomware,Critical,Open,Production database encrypted; ransom demand received,security_team
+2024-11-29,Unauthorised Access,Low,Closed,Failed login attempts on a test server,alice
+2024-11-30,Denial of Service (DoS),Medium,Resolved,Legacy application became unresponsive after a maintenance window,charlie
+2024-12-01,Supply Chain Attack,High,Open,Third-party library dependency flagged with a critical vulnerability,security_team
+2024-12-02,Physical Breach,Low,Closed,Unsecured server room door found after hours,bob
+2024-12-03,Zero-Day Exploit,Critical,Open,New exploit targeting operating system vulnerability detected,security_team
+2024-12-04,Credential Stuffing,Medium,Closed,Automated attempts to log in using publicly leaked credentials,alice
+2024-12-05,Impersonation,High,Open,Helpdesk reported a call asking to reset the CEO's password without verification,charlie
+2024-12-06,Vulnerability Scan,Low,Closed,Routine scanner identified outdated SSH protocol on a staging server,alice
+2024-12-07,Brute Force,Medium,Resolved,Temporary account lockouts on the VPN portal due to repeated failed logins,security_team
+2024-12-08,Data Exfiltration,Critical,Open,Database query logs show massive export activity by an internal user,security_team
+2024-12-09,Misconfiguration,Medium,Closed,S3 bucket policy was temporarily set to public read/write,bob
+2024-12-10,Web Defacement,High,Resolved,Marketing website homepage was briefly replaced with political message,charlie
+2024-12-11,Phishing,Medium,Closed,15 employees clicked on a fake internal memo email,alice
+2024-12-12,Unauthorised Access,High,Open,Suspicious API key usage detected from an unknown region,security_team
+2024-12-13,Social Engineering,Medium,Resolved,Attacker gained brief access to a temporary password via phone call,bob
+2024-12-14,Hardware Tampering,Low,Closed,Unregistered USB device found plugged into an office workstation,charlie
+2024-12-15,Cloud Service Hijack,Critical,Open,Service account compromised and used to spin up unauthorized resources,security_team
+2024-12-16,DDoS,High,Resolved,Mitigation services successfully stopped a volumetric attack within 5 minutes,security_team
+2024-12-17,Malware,Medium,Closed,Zero-day virus signature pushed to all endpoints and confirmed removal,alice
