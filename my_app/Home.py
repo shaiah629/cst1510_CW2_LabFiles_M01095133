@@ -1,6 +1,25 @@
 import streamlit as st
+import bcrypt
+import os
 
-st.set_page_config(page_title="Login / Register", page_icon="🔑", layout="centered")
+#load users from users.txt file into session state
+def load_users(filename="user.txt"):
+    """Load users from file into a dictionary {username: hashed_password}"""
+    users = {}
+    if os.path.exists(filename):
+        with open(filename, "r") as f:
+            for line in f:
+                line = line.strip()
+                if line:
+                    username, hashed_pw = line.split(",", 1)
+                    users[username] = hashed_pw.encode("utf-8")  # store as bytes
+    return users
+
+def save_user(username, password, filename="user.txt"):
+    """Hash password and append new user to file"""
+    hashed_pw = bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt())
+    with open(filename, "a") as f:
+        f.write(f"{username},{hashed_pw.decode('utf-8')}\n")
 
 # ---------- Initialise session state ----------
 if "users" not in st.session_state:
@@ -23,7 +42,6 @@ if st.session_state.logged_in:
         st.switch_page("pages/1_Dashboard.py")  # path is relative to Home.py :contentReference[oaicite:1]{index=1}
     st.stop()  # Don’t show login/register again
 
-
 # ---------- Tabs: Login / Register ----------
 tab_login, tab_register = st.tabs(["Login", "Register"])
 
@@ -37,13 +55,16 @@ with tab_login:
     if st.button("Log in", type="primary"):
         # Simple credential check (for teaching only – not secure!)
         users = st.session_state.users
-        if login_username in users and users[login_username] == login_password:
-            st.session_state.logged_in = True
-            st.session_state.username = login_username
-            st.success(f"Welcome back, {login_username}! ")
+        if login_username in users:
+            stored_hash = users[login_username]
 
-            # Redirect to dashboard page
-            st.switch_page("pages/1_Dashboard.py")
+            if bcrypt.checkpw(login_password.encode("utf-8"), stored_hash):
+                st.session_state.logged_in = True
+                st.session_state.username = login_username
+                st.success(f"Welcome back, {login_username}! ")
+                st.switch_page("pages/1_Dashboard.py")
+            else:
+                st.error("Invalid username or password.")
         else:
             st.error("Invalid username or password.")
 
@@ -66,6 +87,10 @@ with tab_register:
             st.error("Username already exists. Choose another one.")
         else:
             # "Save" user in our simple in-memory store
-            st.session_state.users[new_username] = new_password
+            hashed_pw = bcrypt.hashpw(new_password.encode("utf-8"), bcrypt.gensalt())
+            st.session_state.users[new_username] = hashed_pw
+            
+            save_user(new_username, new_password)
+            
             st.success("Account created! You can now log in from the Login tab.")
             st.info("Tip: go to the Login tab and sign in with your new account.")
