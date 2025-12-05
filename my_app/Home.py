@@ -1,6 +1,15 @@
 import streamlit as st
+import sqlite3
 import bcrypt
 import os
+from app.data.db import connect_database,
+
+DATA_DIR
+
+#connect to the database
+def connect_database(db_path="DATA/intelligence_platform.db"):
+    """Connect to the SQLite database."""
+    return sqlite3.connect(db_path)
 
 #load users from users.txt file into session state
 def load_users(filename="user.txt"):

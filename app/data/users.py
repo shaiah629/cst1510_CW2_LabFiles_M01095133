@@ -1,7 +1,6 @@
 from app.data.db import connect_database
 from pathlib import Path
 import sqlite3
-DATA_DIR = Path("app/data")
 
 def get_user_by_username(username: str):
     """Retrieve user by username."""
