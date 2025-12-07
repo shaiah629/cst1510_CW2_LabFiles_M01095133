@@ -1,7 +1,8 @@
 import pandas as pd
 import sqlite3
 from app.data.db import connect_database, DATA_DIR
-from app.data.schema import create_all_tables, migrate_users_from_file
+from app.data.schema import create_all_tables
+from app.data.users import migrate_users_from_file
 from app.services.user_service import register_user, login_user
 from app.data.incidents import (
     load_csv_to_table, insert_incident, get_all_incidents, 
@@ -45,7 +46,7 @@ def main():
 
         #3. migrate users from users.txt
         print("\n[2/5] Migrating users...")
-        migrate_users_from_file()
+        migrate_users_from_file(conn)
         
         #4. load CSV data into tables
         print("\n[3/5] Loading CSV data...")

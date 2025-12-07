@@ -1,6 +1,7 @@
 import pandas as pd
 from pathlib import Path
 from app.data.users import migrate_users_from_file
+from app.data.incidents import load_all_csv_data
 from app.data.db import connect_database
 DB_PATH = Path("DATA") / "intelligence_platform.db"
 
@@ -96,42 +97,6 @@ def create_all_tables(conn):
     create_datasets_metadata_table(conn)
     create_it_tickets_table(conn)
     print("All tables schema established.")
-
-def load_csv_to_table(conn, csv_path, table_name: str):
-    """Load a CSV file into a database table using pandas."""
-    if not csv_path.exists():
-        print(f"  - ⚠️ File not found: {csv_path.name}. Skipping load.")
-    
-    df = pd.read_csv(csv_path)
-    df.to_sql(name=table_name, con=conn, if_exists='append', index=False)
-    row_count = len(df)
-    print(f"  - ✅ Loaded {len(df)} rows into '{table_name}' from {csv_path.name}")
-    
-    return row_count 
-    
-def load_all_csv_data(conn, directory, if_exists='append'):
-    results = {}
-    directory = Path(directory)
-
-    if not directory.exists():
-        raise FileNotFoundError(f"Directory not found: {directory}")
-
-    for csv_file in directory.glob("*.csv"):
-        table_name = csv_file.stem
-        df = pd.read_csv(csv_file)
-
-        df.to_sql(
-            name=table_name,
-            con=conn,
-            if_exists=if_exists,
-            index=False
-        )
-
-        row_count = len(df)
-        results[table_name] = row_count
-        print(f"✅ Loaded {row_count} rows into '{table_name}' from {csv_file.name}")
-
-    return results
 
 def setup_database_complete():
     """
