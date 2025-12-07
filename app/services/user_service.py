@@ -1,49 +1,60 @@
+import sqlite3
 import bcrypt
 from pathlib import Path
-from app.data.db import connect_database, DATA_DIR
-from app.data.users import get_user_by_username, insert_user
-DATA_DIR = Path("app/data")
+from app.data.db import connect_database
+DATA_DIR = Path("DATA")
 
-def register_user(username: str, password: str, role: str = 'user'):
+def register_user(username, password, role='user'):
     """Register new user with password hashing."""
-    conn = connect_database() 
+    conn = connect_database()
+    cursor = conn.cursor()
     
     #check if user already exists
-    if get_user_by_username(username):
+    cursor.execute("SELECT * FROM users WHERE username = ?", (username,))
+    if cursor.fetchone():
         conn.close()
         return False, f"Username '{username}' already exists."
-
-    #hash password
-    password_hash = bcrypt.hashpw(
-        password.encode('utf-8'),
-        bcrypt.gensalt()
-    ).decode('utf-8')
     
-    #insert into database
-    insert_user(username, password_hash, role)
+    #hash the password
+    password_bytes = password.encode('utf-8')
+    salt = bcrypt.gensalt()
+    hashed = bcrypt.hashpw(password_bytes, salt)
+    password_hash = hashed.decode('utf-8')
     
+    #insert new user
+    cursor.execute(
+        "INSERT INTO users (username, password_hash, role) VALUES (?, ?, ?)",
+        (username, password_hash, role)
+    )
+    conn.commit()
     conn.close()
-    return True, f"User '{username}' registered successfully."
+    
+    return True, f"User '{username}' registered successfully!"
 
-def login_user(username: str, password: str):
+def login_user(username, password):
     """Authenticate user."""
-    user = get_user_by_username(username)
+    conn = connect_database()
+    cursor = conn.cursor()
+    
+    #find user
+    cursor.execute("SELECT * FROM users WHERE username = ?", (username,))
+    user = cursor.fetchone()
+    conn.close()
     
     if not user:
-        return False, "User not found."
+        return False, "Username not found."
     
-    #verify password
-    #user[2] is the password_hash column returned by get_user_by_username
-    stored_hash = user[2] 
+    #verify password (user[2] is password_hash column)
+    stored_hash = user[2]
+    password_bytes = password.encode('utf-8')
+    hash_bytes = stored_hash.encode('utf-8')
     
-    try:
-        if bcrypt.checkpw(password.encode('utf-8'), stored_hash.encode('utf-8')):
-            return True, f"Login successful! Role: {user[3]}"
-        return False, "Incorrect password."
-    except ValueError:
-        return False, "Error validating password hash."
+    if bcrypt.checkpw(password_bytes, hash_bytes):
+        return True, f"Welcome, {username}!"
+    else:
+        return False, "Invalid password."
 
-def migrate_users_from_file(filepath=DATA_DIR / "users.txt"):
+def migrate_users_from_file(conn, filepath=DATA_DIR / "users.txt"):
     """Migrate users from text file to database using INSERT OR IGNORE."""
     conn = connect_database()
     
@@ -55,33 +66,28 @@ def migrate_users_from_file(filepath=DATA_DIR / "users.txt"):
     cursor = conn.cursor()
     migrated_count = 0
     
-    try:
-        with open(filepath, 'r') as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                
-                parts = line.split(',')
-                if len(parts) < 2: continue
-
+    with open(filepath, 'r') as f:
+        for line in f:
+            line = line.strip()
+            if not line:
+                continue
+            
+            #parse line: username,password_hash
+            parts = line.split(',')
+            if len(parts) >= 2:
                 username = parts[0]
                 password_hash = parts[1]
-                role = parts[2] if len(parts) > 2 else 'user'
                 
-                #INSERT OR IGNORE prevents failure if user already exists
-                cursor.execute(
-                    "INSERT OR IGNORE INTO users (username, password_hash, role) VALUES (?, ?, ?)",
-                    (username, password_hash, role)
-                )
-                if cursor.rowcount > 0:
-                    migrated_count += 1
-
-        conn.commit()
-        print(f"  - ✅ Migrated {migrated_count} new users from {filepath.name}")
-        return migrated_count
-    except Exception as e:
-        print(f"  - ❌ Error during user migration: {e}")
-        return 0
-    finally:
-        conn.close()
+                #insert user (ignore if already exists)
+                try:
+                    cursor.execute(
+                        "INSERT OR IGNORE INTO users (username, password_hash, role) VALUES (?, ?, ?)",
+                        (username, password_hash, 'user')
+                    )
+                    if cursor.rowcount > 0:
+                        migrated_count += 1
+                except sqlite3.Error as e:
+                    print(f"Error migrating user {username}: {e}")
+    
+    conn.commit()
+    print(f"✅ Migrated {migrated_count} users from {filepath.name}")

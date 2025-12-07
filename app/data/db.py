@@ -1,17 +1,16 @@
 import sqlite3
 from pathlib import Path
 
-#define paths for the DATA folder and the database file
+# Define paths
 DATA_DIR = Path("DATA")
 DB_PATH = DATA_DIR / "intelligence_platform.db"
 
-#ensure the DATA folder exists
+# Create DATA folder if it doesn't exist
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 def connect_database(db_path=DB_PATH):
-    """
-    Connect to the SQLite database.
-    Creates the database file if it doesn't exist.
-    """
-    #the str() conversion ensures cross-platform path compatibility
-    return sqlite3.connect(str(db_path))
+    return sqlite3.connect(db_path)
+
+print(" Imports successful!")
+print(f" DATA folder: {DATA_DIR.resolve()}")
+print(f" Database will be created at: {DB_PATH.resolve()}")
