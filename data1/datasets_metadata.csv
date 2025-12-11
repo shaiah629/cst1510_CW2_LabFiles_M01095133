@@ -4,448 +4,381 @@ Customer_Records_v3,CRM,External API,2024-11-15,580000,120.70
 Satellite_Imagery_Q4,Geography,Government Source,2024-10-01,1200,800.00
 Financial_Transactions,Finance,Internal ERP,2024-11-24,3200000,98.15
 Sensor_Data_Test,IoT,Internal Edge Device,2024-11-24,50000,15.50
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Network_Logs,Security,Internal SIEM,2024-11-23,1500000,450.25
-Customer_Records_v3,CRM,External API,2024-11-15,580000,120.70
-Satellite_Imagery_Q4,Geography,Government Source,2024-10-01,1200,800.00
-Financial_Transactions,Finance,Internal ERP,2024-11-24,3200000,98.15
-Sensor_Data_Test,IoT,Internal Edge Device,2024-11-24,50000,15.50
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
-Users_Authentication_Log,Cybersecurity,Internal SIEM,2025-10-28,542000,125.67
-Network_Traffic_Flows,Cybersecurity,Cisco NetFlow,2025-10-27,1200000,345.92
-Active_Directory_Users,IT Operations,Windows AD,2025-10-29,8500,1.88
-HR_Employee_Records,Business,Internal ERP,2025-09-15,4500,0.95
-Server_Resource_Usage,IT Operations,Prometheus,2025-10-28,890000,210.30
-Phishing_Attempt_Emails,Cybersecurity,Email Gateway,2025-10-28,1520,0.45
-Helpdesk_Tickets_2025,IT Operations,ServiceNow,2025-10-26,32000,12.11
-Vendor_Invoices_Q3,Business,Accounting System,2025-10-01,1200,0.78
-Web_Server_Access_Logs,Cybersecurity,Apache,2025-10-29,3500000,450.55
-Firewall_Deny_Rules,Cybersecurity,Palo Alto,2025-10-29,55000,15.22
-Monthly_Sales_Projections,Business,CRM,2025-10-20,150,0.05
-Endpoint_Vulnerabilities,IT Operations,Tenable,2025-10-28,95000,28.75
-Application_Error_Reports,IT Operations,Logstash,2025-10-29,180000,45.99
-Customer_Feedback_Survey,Business,SurveyMonkey,2025-10-10,7800,2.15
-Cloud_Config_Changes,IT Operations,AWS CloudTrail,2025-10-29,25000,8.44
-Malware_Quarantine_List,Cybersecurity,Antivirus Console,2025-10-28,512,0.12
-Product_Inventory_Levels,Business,Warehouse System,2025-10-29,150000,5.89
-Database_Backup_Status,IT Operations,DBA Scripts,2025-10-29,30,0.01
-Data_Loss_Prevention_Alerts,Cybersecurity,DLP Tool,2025-10-27,850,0.30
-Quarterly_Budget_Actuals,Business,Finance System,2025-10-25,45,0.02
+Retail_Checkout_Receipts,Retail,POS System,2025-09-12,2200000,310.55
+Social_Media_Engagement,Marketing,Meta Insights API,2025-07-20,890000,67.10
+Hospital_Patient_Admissions,Healthcare,Hospital EHR,2025-08-14,45000,12.40
+University_Course_Enrollments,Education,Campus SIS,2025-10-02,32000,8.75
+Weather_Station_Readings,Environment,NOAA Sensors,2025-09-28,740000,95.22
+Transportation_Traffic_Flows,Urban Planning,City DOT API,2025-10-05,1500000,270.33
+Energy_Consumption_Logs,Utilities,Smart Meter Grid,2025-09-19,900000,140.55
+Agriculture_Field_Yields,Agriculture,Drone Mapping,2025-07-11,8200,55.90
+Hotel_Booking_Records,Hospitality,Booking Platform,2025-10-20,120000,25.80
+Streaming_Watch_History,Entertainment,Video Platform,2025-10-17,2200000,340.00
+Mobile_App_Usage,Technology,App Analytics SDK,2025-10-23,650000,104.44
+Airport_Flight_Schedule,Transportation,Airline Data Feed,2025-10-29,8900,4.90
+Manufacturing_Machine_Metrics,Manufacturing,Factory IoT Hub,2025-10-15,780000,200.70
+Pharmacy_Medicine_Inventory,Healthcare,Pharmacy System,2025-10-22,18000,1.55
+Food_Delivery_Orders,Logistics,Delivery Platform,2025-10-26,450000,33.80
+School_Attendance_Records,Education,Attendance App,2025-10-12,15000,3.20
+Movie_Ticket_Sales,Entertainment,Cinema POS,2025-09-30,67000,8.22
+Online_Store_Transactions,E-commerce,Shopify API,2025-10-29,1300000,210.10
+Electric_Vehicle_Charging_Sessions,Energy,EV Network,2025-10-27,52000,16.88
+Fitness_Tracker_Data,Health & Wellness,Wearable Device,2025-10-21,340000,45.30
+Local_Census_Statistics,Demographics,Government Bureau,2025-10-01,8900,5.10
+Public_Transit_Checkins,Transportation,Metro Card System,2025-10-25,2100000,150.66
+Smart_Home_Device_Events,IoT,Home Automation Hub,2025-09-14,56000,12.55
+Art_Museum_Visitor_Counts,Culture,Museum Analytics,2025-09-28,22000,4.75
+Sports_Game_Telemetry,Sports,Team Analytics Engine,2025-10-08,950000,134.90
+Restaurant_Review_Sentiment,Marketing,Yelp API,2025-09-30,120000,18.44
+Public_Library_Checkouts,Culture,Library System,2025-10-10,43000,6.20
+City_Pollution_Readings,Environment,Air Quality Monitors,2025-10-27,880000,72.95
+Real_Estate_Listings,Property,MLS Feed,2025-10-18,67000,22.10
+Job_Applications_2025,HR,Recruitment Portal,2025-10-21,54000,9.80
+Supply_Chain_Shipments,Logistics,Freight Tracking,2025-10-23,310000,120.40
+Telecom_Call_Detail_Records,Telecom,Carrier Core Network,2025-10-29,4500000,512.60
+Bank_Loan_Applications,Finance,Banking System,2025-10-24,88000,14.30
+City_Emergency_Incidents,Public Safety,911 Dispatch,2025-10-28,39000,10.95
+Online_Course_Assignments,Education,LMS Platform,2025-10-19,84000,7.30
+Drone_Traffic_Routes,Technology,Drone Control Cloud,2025-10-12,350000,98.60
+Gaming_Session_Analytics,Entertainment,Game Server Logs,2025-10-25,2800000,380.55
+Water_Usage_Statistics,Utilities,City Water Grid,2025-10-14,920000,110.80
+Hotel_Customer_Reviews,Hospitality,TripAdvisor API,2025-08-30,67000,9.90
+University_Research_Datasets,Academia,Research Archive,2025-10-01,4500,2.00
+Network_Logs,Security,Internal SIEM,2025-10-12,1500000,450.25
+Customer_Records_v3,CRM,External API,2025-09-22,580000,120.70
+Satellite_Imagery_Q4,Geography,Government Source,2025-10-01,1200,800.00
+Financial_Transactions,Finance,Internal ERP,2025-10-03,3200000,98.15
+Sensor_Data_Test,IoT,Edge Device Hub,2025-10-06,50000,15.50
+Retail_Checkout_Receipts,Retail,POS System,2025-10-11,2200000,310.55
+Social_Media_Engagement,Marketing,Meta Insights API,2025-09-20,890000,67.10
+Hospital_Patient_Admissions,Healthcare,Hospital EHR,2025-10-05,45000,12.40
+University_Course_Enrollments,Education,Campus SIS,2025-09-14,32000,8.75
+Weather_Station_Readings,Environment,NOAA Sensors,2025-10-02,740000,95.22
+Transportation_Traffic_Flows,Urban Planning,City DOT API,2025-09-30,1500000,270.33
+Energy_Consumption_Logs,Utilities,Smart Meter Grid,2025-09-28,900000,140.55
+Agriculture_Field_Yields,Agriculture,Drone Mapping,2025-09-01,8200,55.90
+Hotel_Booking_Records,Hospitality,Booking Platform,2025-10-13,120000,25.80
+Streaming_Watch_History,Entertainment,Video Platform,2025-10-01,2200000,340.00
+Mobile_App_Usage,Technology,App Analytics SDK,2025-09-21,650000,104.44
+Airport_Flight_Schedule,Transportation,Airline Data Feed,2025-10-09,8900,4.90
+Manufacturing_Machine_Metrics,Manufacturing,Factory IoT Hub,2025-10-03,780000,200.70
+Pharmacy_Medicine_Inventory,Healthcare,Pharmacy System,2025-10-08,18000,1.55
+Food_Delivery_Orders,Logistics,Delivery Network,2025-10-06,450000,33.80
+School_Attendance_Records,Education,Attendance App,2025-09-18,15000,3.20
+Movie_Ticket_Sales,Entertainment,Cinema POS,2025-10-11,67000,8.22
+Online_Store_Transactions,E-commerce,Shopify API,2025-09-29,1300000,210.10
+EV_Charging_Sessions,Energy,EV Charger Grid,2025-10-05,52000,16.88
+Fitness_Tracker_Data,Health & Wellness,Wearable Device,2025-09-14,340000,45.30
+Census_Population_Stats,Demographics,Gov Bureau,2025-09-01,8900,5.10
+Transit_Checkins,Transportation,Metro Card System,2025-09-25,2100000,150.66
+Smart_Home_Events,IoT,Home Automation Hub,2025-09-21,56000,12.55
+Museum_Visitor_Counts,Culture,Museum Analytics,2025-09-28,22000,4.75
+Sports_Game_Telemetry,Sports,Analytics Engine,2025-09-30,950000,134.90
+Restaurant_Review_Sentiment,Marketing,Yelp API,2025-09-14,120000,18.44
+Library_Checkouts,Culture,Library DB,2025-10-02,43000,6.20
+Air_Quality_Levels,Environment,City AQI Network,2025-10-01,880000,72.95
+Real_Estate_Listings,Property,MLS Feed,2025-09-17,67000,22.10
+Job_Applications_2025,HR,Recruitment Portal,2025-09-29,54000,9.80
+Freight_Shipment_Logs,Logistics,FedEx API,2025-09-28,310000,120.40
+Carrier_Call_Records,Telecom,Carrier Core,2025-09-18,4500000,512.60
+Loan_Applications,Finance,Banking System,2025-09-22,88000,14.30
+Emergency_Incident_Logs,Public Safety,911 Dispatch,2025-10-01,39000,10.95
+Course_Assignment_Submissions,Education,LMS Platform,2025-09-28,84000,7.30
+Drone_Flight_Paths,Technology,Drone Cloud,2025-10-03,350000,98.60
+Online_Gaming_Sessions,Entertainment,Game Servers,2025-10-12,2800000,380.55
+Water_Usage_Stats,Utilities,Water Grid,2025-09-26,920000,110.80
+Hotel_Review_Data,Hospitality,TripAdvisor API,2025-09-14,67000,9.90
+Research_Datasets,Academia,Research Archive,2025-10-02,4500,2.00
+Airport_Baggage_Tracking,Aviation,RFID Grid,2025-10-09,650000,134.90
+City_Power_Outage_Reports,Utilities,Power Authority,2025-09-10,7200,6.10
+Telemedicine_Session_Logs,Healthcare,Telehealth System,2025-10-06,43000,19.42
+Video_Conference_Usage,Technology,Zoom Analytics,2025-10-07,1500000,201.33
+Public_Event_Attendance,Culture,Event Ticketing,2025-09-30,48000,8.11
+Bank_ATM_Withdrawals,Finance,Bank ATM Network,2025-10-11,720000,44.92
+Electric_Grid_Frequency_Data,Energy,Grid Sensors,2025-09-25,92000,18.30
+Forest_Fire_Risk_Index,Environmental,Satellite Data,2025-10-05,14000,32.20
+Maritime_Shipping_Routes,Logistics,Port Authority,2025-09-22,40000,56.80
+Hospital_Surgery_Records,Healthcare,Hospital EHR,2025-10-02,22000,7.10
+Insurance_Claim_Records,Finance,Insurance Core,2025-09-29,98000,14.22
+Retail_Inventory_Levels,Retail,Inventory System,2025-09-25,510000,40.33
+Weather_Prediction_Models,Environment,Forecast Engine,2025-09-26,12000,85.55
+Wildlife_Tracking_Collar_Data,Environmental,Animal Sensors,2025-09-14,5800,12.66
+University_Library_DigitalAccess,Education,Library System,2025-09-10,91000,19.22
+Taxi_Trip_Records,Transportation,Ride Meter System,2025-09-27,2300000,210.70
+Airport_Noise_Monitoring,Aviation,Noise Sensors,2025-10-03,67000,13.45
+Construction_Project_Logs,Construction,Project Tracker,2025-09-16,58000,23.11
+Pet_Adoption_Registry,Community,Animal Shelter DB,2025-09-29,18000,3.55
+Food_Safety_Inspections,Government,Inspection Agency,2025-10-11,26000,6.80
+Harbor_Tide_Records,Oceans,Marine Sensors,2025-09-20,88000,28.44
+Television_Rating_Metrics,Media,TV Analytics System,2025-10-10,480000,39.50
+Smart_Factory_Robotics_Logs,Manufacturing,Automation Hub,2025-10-04,820000,150.9
+University_Exam_Results,Education,Exam Office DB,2025-09-13,35000,4.40
+Online_Payment_Gateway_Logs,Finance,Payment Processor,2025-10-02,2100000,190.22
+Restaurant_Menu_Item_Analytics,Food Service,POS System,2025-10-05,66000,6.90
+Mobile_Tower_Signal_Data,Telecom,Carrier Tower Grid,2025-10-09,1500000,250.12
+Epidemiology_Virus_Tracking,Healthcare,Infection Registry,2025-09-30,24000,13.70
+Game_Achievement_Records,Entertainment,Game Analytics,2025-09-28,1800000,195.44
+Electric_Vehicle_Speed_Telemetry,Automotive,Vehicle Cloud,2025-09-14,44000,22.50
+Crypto_Transaction_Ledger,Finance,Blockchain Node,2025-10-11,880000,110.40
+University_Housing_Applications,Education,Student Housing DB,2025-09-18,12000,3.11
+Retail_Customer_Service_Logs,Business,Support Platform,2025-09-29,420000,40.20
+National_Park_Visitor_Logs,Environment,Park Entry System,2025-10-01,110000,12.88
+Construction_Site_Safety_Reports,Construction,Safety App,2025-10-04,23000,3.80
+Delivery_Route_Optimization,Logistics,Route Engine,2025-09-17,65000,26.55
+ATM_Error_Codes,Finance,ATM Network,2025-10-05,38000,5.95
+Retail_POS_Error_Logs,Retail,POS System,2025-09-28,94000,12.33
+Ocean_Current_Maps,Marine,Oceanographic Sensors,2025-10-01,6700,42.10
+Airport_Passenger_Flow,Aviation,Airport Analytics,2025-09-25,230000,33.88
+Public_WiFi_Usage,Technology,City WiFi Grid,2025-09-29,890000,65.22
+Museum_Artifact_Records,Culture,Museum Archive,2025-09-10,12000,5.44
+Traffic_Light_Cycle_Data,Urban Planning,City IoT Sensors,2025-09-27,90000,18.33
+Emergency_Hotline_Call_Logs,Public Safety,Call Center,2025-09-19,44000,7.88
+Agricultural_Soil_Analysis,Agriculture,Soil Sensors,2025-09-11,25000,11.50
+Pharmaceutical_Drug_Trials,Healthcare,Trial Database,2025-09-15,15000,9.90
+Telecom_5G_Node_Statistics,Telecom,5G Core System,2025-09-30,1600000,322.44
+Urban_Waste_Collection_Logs,Government,Sanitation Sensors,2025-10-02,56000,14.77
+Movie_Subtitle_Metadata,Entertainment,Subtitle Repository,2025-09-16,74000,8.66
+Urban_Tree_Census, Environment, WildlifeDept, 2024-05-10, 8900, 118.3
+Public_Library_Usage, Education, CityCouncil, 2023-09-18, 452200, 140.2
+Marine_Life_Populations, Environment, OceanicOrg, 2024-01-29, 128900, 169.7
+Hospital_Admission_Stats, Health, NatHealthService, 2024-02-17, 99000, 155.9
+Broadband_Access_Map, Technology, NetSurvey, 2024-03-30, 78000, 102.4
+Road_Repair_Log, Infrastructure, GovTransport, 2024-04-12, 3200, 45.6
+National_Garden_Registry, Agriculture, GreenDept, 2024-05-08, 21000, 39.8
+River_Water_Levels, Environment, HydroSurvey, 2024-02-21, 540000, 180.3
+Online_Courses_Enrolment, Education, EduBoard, 2023-12-09, 249200, 120.0
+Refugee_Migration_Data, Humanitarian, ReliefOrg, 2024-04-11, 88000, 135.5
+National_Park_Visitor_Log, Tourism, ParksDept, 2023-10-27, 743500, 160.8
+Transportation_Routes_3D, Infrastructure, GeoMaps, 2024-01-03, 99000, 220.1
+E_Commerce_Sales_Index, Business, RetailStats, 2024-02-20, 450000, 166.0
+School_Lunch_Programs, Education, FoodDept, 2023-11-16, 56000, 48.5
+Solar_Farm_Performance, Energy, SunGrid, 2024-03-09, 720000, 190.2
+Cinema_Attendance_Trends, Entertainment, MediaStat, 2023-12-22, 408900, 74.8
+Animal_Adoption_Records, Community, PetRescue, 2024-04-04, 23000, 58.1
+Census_Occupation_Data, Demographics, CensusBureau, 2024-01-16, 480000, 205.4
+Lakeside_Water_Quality, Environment, HydroDept, 2024-03-06, 52000, 84.3
+NGO_Funding_Distribution, Finance, AidTracker, 2024-02-27, 66000, 95.4
+Traffic_Jam_Patterns, Transportation, CityFlow, 2024-03-14, 390000, 142.7
+Monthly_Fire_Department_Reports, Safety, FireBureau, 2024-05-02, 13000, 33.8
+International_Study_Enrollments, Education, EduGlobal, 2024-04-25, 78000, 109.1
+Mountain_Climbing_Stats, Sports, AlpineOrg, 2023-11-04, 42000, 50.0
+Airplane_Flight_Usage, Transportation, FlightAuthority, 2024-01-14, 890000, 180.6
+Carbon_Emissions_Metrics, Environment, GreenData, 2024-04-18, 800000, 200.2
+Housing_Loan_Approvals, Finance, BankBoard, 2024-03-11, 129000, 145.8
+University_Research_Publications, Education, UniData, 2024-01-30, 222000, 156.2
+River_Fish_Tracking, Environment, WaterLife, 2023-11-27, 120000, 91.9
+Smart_Home_Device_Usage, Technology, TechInsight, 2024-03-20, 540000, 178.3
+National_Road_Sign_Map, Infrastructure, RoadDept, 2023-10-31, 130000, 70.1
+Weather_Satellite_Images, Environment, ClimateWatch, 2024-05-10, 910000, 310.9
+Community_Sports_Programs, Sports, LocalAthletics, 2024-04-14, 55000, 60.4
+Food_Market_Pricing, Economics, MarketBoard, 2024-01-10, 340000, 126.7
+Electric_Vehicle_Charging_Stations, Energy, PowerNet, 2024-03-05, 140000, 145.4
+Government_Grants_Issued, Finance, TreasuryDept, 2024-02-01, 56000, 72.5
+Tourism_Hotel_Stays, Tourism, HotelAuth, 2024-04-03, 890000, 165.0
+Social_Service_Support_Cases, Social, SupportDept, 2024-01-07, 48000, 55.2
+Road_Accident_Locations, Safety, TrafficBureau, 2024-03-27, 310000, 140.9
+Agricultural_Export_Volumes, Agriculture, FarmTrade, 2024-02-12, 870000, 180.3
+Employee_Work_Hours, Business, LaborBoard, 2024-04-11, 400000, 159.1
+Mobile_App_Downloads, Technology, AppStats, 2023-12-15, 920000, 199.3
+Railway_Ticket_Sales, Transportation, RailCorp, 2024-01-25, 675000, 154.2
+Public_Opinion_Surveys, Politics, OpinLab, 2024-05-01, 112000, 85.6
+Marine_Weather_Alerts, Environment, CoastWatch, 2024-02-28, 124000, 97.7
+Retail_Customer_Visits, Business, ShopData, 2023-11-12, 540000, 133.0
+Government_Document_Archive, Public, NatArchive, 2024-03-19, 720000, 205.7
+Hospital_Wait_Times, Health, HealthTrack, 2024-01-05, 68000, 69.4
+School_Graduation_Rates, Education, EduCouncil, 2024-04-30, 130000, 77.5
+Renewable_Energy_Adoption_Map, Energy, CleanPower, 2024-02-23, 160000, 98.3
+Country_Import_Records, Economics, TradeMinistry, 2024-03-28, 780000, 210.8
+Land_Use_Patterns, Geography, GeoSurvey, 2024-01-18, 300000, 155.5
+Online_Streaming_Trends, Entertainment, MediaFlow, 2024-03-10, 940000, 188.7
+National_Poetry_Archive, Culture, ArtsCouncil, 2024-05-04, 28000, 44.2
+Car_Parking_Sensor_Data, Transportation, SmartCity, 2024-02-15, 310000, 142.6
+Local_Business_Registrations, Business, BizRecords, 2024-04-06, 120000, 118.5
+Flight_Delay_Statistics, Transportation, AeroStats, 2024-01-12, 780000, 175.1
+Electricity_Consumption, Energy, PowerAuthority, 2024-02-20, 890000, 239.4
+Community_Events_List, Public, EventTracker, 2023-11-06, 42000, 33.7
+Youth_Training_Programs, Education, EduYouth, 2024-01-29, 52000, 48.6
+Construction_Permit_Logs, Infrastructure, CityBuild, 2024-03-11, 67000, 98.4
+Doctor_Availability_Map, Health, MedSchedule, 2024-04-01, 33000, 52.3
+Disaster_Relief_Responses, Humanitarian, CrisisAid, 2024-05-09, 190000, 145.0
+Cybersecurity_Threat_Log, Technology, SecWatch, 2024-02-02, 320000, 170.8
+Forest_Fire_Risk_Index, Environment, FireEco, 2024-01-22, 140000, 115.6
+Government_Tax_Records, Finance, TaxOffice, 2024-03-15, 650000, 188.9
+School_Attendance_Records, Education, EduDept, 2024-04-23, 290000, 84.5
+Bus_Service_Performance, Transportation, TransitBoard, 2023-12-28, 740000, 160.1
+Wildlife_Protection_Zones, Environment, EcoGuard, 2024-05-05, 33000, 47.1
+Water_Purification_Stats, Health, CleanWaterOrg, 2024-02-11, 180000, 129.4
+Tourism_Border_Entries, Tourism, TravelAuthority, 2024-03-01, 870000, 171.6
+Municipal_Budget_Reports, Finance, CityGov, 2024-01-09, 56000, 90.5
+Charity_Donation_Records, Humanitarian, CareFund, 2024-03-29, 120000, 107.2
+Stadium_Event_Tickets, Sports, SportTrack, 2024-02-24, 380000, 132.8
+Noise_Pollution_Measurements, Environment, UrbanSound, 2024-01-31, 140000, 112.9
+Digital_Learning_Platform_Data, Education, LearnNet, 2024-04-07, 960000, 215.4
+Emergency_Call_Logs, Safety, AssistLine, 2024-03-04, 440000, 128.1
+Banking_ATM_Withdrawals, Finance, BankNet, 2024-01-26, 890000, 190.2
+Rural_Healthcare_Access, Health, MedRural, 2024-05-08, 78000, 69.8
+City_Waste_Collection, Environment, SanitationDept, 2024-02-14, 450000, 135.2
+International_Trade_Flow, Economics, TradeMinistry, 2024-03-22, 780000, 205.6
+School_Library_Checkouts, Education, EduBoard, 2024-01-28, 56000, 48.3
+Public_Park_Maintenance, Environment, ParksDept, 2024-04-16, 32000, 38.7
+Electric_Bus_Deployment, Transportation, TransitBoard, 2024-03-05, 14000, 25.6
+Cultural_Festival_Attendance, Culture, ArtsCouncil, 2024-02-18, 89000, 71.2
+National_Food_Supply_Stats, Agriculture, FoodDept, 2024-01-15, 720000, 198.7
+Mobile_Internet_Usage, Technology, NetSurvey, 2024-03-30, 940000, 220.4
+Emergency_Shelter_Capacity, Social, ReliefOrg, 2024-04-12, 56000, 54.1
+Urban_Streetlight_Inventory, Infrastructure, CityLights, 2024-01-05, 87000, 88.3
+River_Flood_Warnings, Environment, HydroDept, 2024-02-25, 320000, 145.2
+National_Student_Exams, Education, ExamBoard, 2024-03-11, 490000, 152.7
+Hospital_Bed_Occupancy, Health, NatHealthService, 2024-04-28, 89000, 77.5
+Tourism_Transport_Usage, Tourism, TravelAuthority, 2024-01-09, 670000, 180.3
+Renewable_Energy_Production, Energy, GreenPower, 2024-03-19, 780000, 210.9
+Local_Business_Employment, Business, LaborDept, 2024-02-07, 350000, 155.6
+Weather_Station_Reports, Environment, ClimateWatch, 2024-01-21, 120000, 95.2
+Civic_Volunteer_Activities, Community, CityCouncil, 2024-04-08, 24000, 32.7
+Public_Transport_Ticketing, Transportation, TransitBoard, 2024-03-03, 920000, 198.5
+Museum_Visitor_Statistics, Culture, MuseumDept, 2024-02-12, 56000, 48.9
+Forest_Conservation_Areas, Environment, EcoGuard, 2024-01-17, 140000, 110.6
+University_Enrollment_Data, Education, UniData, 2024-04-21, 420000, 160.1
+National_Housing_Survey, Demographics, CensusBureau, 2024-02-28, 680000, 180.7
+Smart_Parking_Utilization, Infrastructure, CityTech, 2024-03-14, 210000, 120.4
+Food_Bank_Distribution, Social, ReliefOrg, 2024-01-30, 88000, 60.2
+Electric_Grid_Usage, Energy, PowerAuthority, 2024-04-06, 960000, 240.1
+Highway_Traffic_Flows, Transportation, RoadDept, 2024-02-10, 780000, 198.3
+Cinema_Box_Office_Stats, Entertainment, MediaStat, 2024-01-25, 490000, 115.4
+Animal_Shelter_Capacity, Community, PetRescue, 2024-03-08, 23000, 38.5
+National_Language_Usage, Culture, LinguaDept, 2024-04-20, 270000, 150.2
+Cybersecurity_Incidents, Technology, SecWatch, 2024-02-03, 320000, 170.1
+Public_Sports_Facilities, Sports, LocalAthletics, 2024-03-22, 56000, 48.4
+River_Water_Flow, Environment, HydroSurvey, 2024-01-13, 540000, 175.3
+School_Staff_Attendance, Education, EduCouncil, 2024-04-02, 120000, 85.6
+National_Election_Results, Politics, ElectionBoard, 2024-03-09, 780000, 210.4
+Urban_Cycling_Patterns, Transportation, CityFlow, 2024-02-16, 310000, 140.7
+Museum_Collection_Inventory, Culture, ArtsCouncil, 2024-01-29, 34000, 40.5
+Hospital_Staff_Schedules, Health, MedSchedule, 2024-04-05, 78000, 65.4
+Local_Food_Prices, Economics, MarketBoard, 2024-03-18, 430000, 125.7
+Fire_Department_Response_Times, Safety, FireBureau, 2024-01-12, 13000, 35.6
+National_Job_Postings, Business, LaborBoard, 2024-02-26, 560000, 172.3
+Online_Course_Completions, Education, LearnNet, 2024-03-02, 480000, 138.7
+Water_Quality_Monitoring, Environment, HydroDept, 2024-01-30, 52000, 83.5
+Tourist_Site_Visitors, Tourism, TravelAuthority, 2024-04-09, 743500, 160.2
+Urban_Noise_Levels, Environment, UrbanSound, 2024-02-21, 140000, 113.8
+Mobile_App_Usage_Stats, Technology, TechInsight, 2024-03-14, 920000, 195.6
+City_Budget_Allocations, Finance, CityGov, 2024-01-23, 56000, 90.7
+Air_Quality_Reports, Environment, CleanAirOrg, 2024-04-18, 120000, 102.5
+School_Lunch_Enrollments, Education, FoodDept, 2024-03-07, 56000, 48.1
+Public_Transport_Delays, Transportation, TransitBoard, 2024-01-05, 310000, 142.0
+National_Park_Programs, Tourism, ParksDept, 2024-02-28, 33000, 47.2
+Forest_Fire_Incidents, Environment, FireEco, 2024-03-30, 140000, 115.0
+Energy_Consumption_Reports, Energy, PowerNet, 2024-01-18, 890000, 239.6
+Community_Health_Programs, Health, MedRural, 2024-04-22, 78000, 70.1
+Local_Business_Tax_Records, Finance, TaxOffice, 2024-02-13, 120000, 108.3
+Cultural_Events_Schedule, Culture, ArtsCouncil, 2024-03-01, 42000, 35.7
+Airport_Flight_Statistics, Transportation, AeroStats, 2024-01-31, 890000, 180.0
+Wildlife_Migration_Tracking, Environment, EcoGuard, 2024-04-15, 120000, 90.5
+Electric_Vehicle_Sales, Energy, AutoStats, 2024-02-05, 540000, 160.2
+Urban_Street_Repairs, Infrastructure, CityBuild, 2024-03-11, 67000, 98.1
+Disaster_Relief_Deployments, Humanitarian, CrisisAid, 2024-01-20, 190000, 144.7
+Cyber_Attack_Alerts, Technology, SecWatch, 2024-04-03, 320000, 170.4
+National_Census_Data, Demographics, CensusBureau, 2024-02-27, 480000, 205.9
+Online_Shopping_Transactions, Business, RetailStats, 2024-03-16, 450000, 165.7
+Hospital_Admissions, Health, NatHealthService, 2024-01-14, 99000, 155.2
+Marine_Weather_Conditions, Environment, CoastWatch, 2024-04-06, 124000, 97.0
+City_Waste_Recycling, Environment, SanitationDept, 2024-02-18, 480000, 138.5
+International_Trade_Exports, Economics, TradeMinistry, 2024-03-25, 810000, 212.3
+School_Library_Enrollments, Education, EduBoard, 2024-01-30, 58000, 50.1
+Public_Park_Renovations, Environment, ParksDept, 2024-04-18, 35000, 41.0
+Electric_Bus_Routes, Transportation, TransitBoard, 2024-03-08, 15000, 28.3
+Cultural_Festival_Events, Culture, ArtsCouncil, 2024-02-21, 91000, 74.0
+National_Food_Exports, Agriculture, FoodDept, 2024-01-18, 740000, 205.5
+Mobile_Internet_Growth, Technology, NetSurvey, 2024-04-02, 970000, 225.6
+Emergency_Shelter_Requests, Social, ReliefOrg, 2024-04-14, 58000, 56.0
+Urban_Streetlight_Installations, Infrastructure, CityLights, 2024-01-08, 90000, 92.5
+River_Flood_Monitoring, Environment, HydroDept, 2024-02-28, 330000, 150.1
+National_Student_Graduations, Education, ExamBoard, 2024-03-13, 500000, 155.4
+Hospital_Bed_Availability, Health, NatHealthService, 2024-04-30, 91000, 80.3
+Tourism_Transport_Users, Tourism, TravelAuthority, 2024-01-12, 690000, 185.0
+Renewable_Energy_Installations, Energy, GreenPower, 2024-03-22, 800000, 215.0
+Local_Business_Revenue, Business, LaborDept, 2024-02-10, 370000, 160.2
+Weather_Station_Readings, Environment, ClimateWatch, 2024-01-25, 125000, 100.3
+Civic_Volunteer_Hours, Community, CityCouncil, 2024-04-10, 25000, 34.0
+Public_Transport_Usage, Transportation, TransitBoard, 2024-03-05, 950000, 203.2
+Museum_Visitor_Records, Culture, MuseumDept, 2024-02-15, 58000, 50.3
+Forest_Conservation_Programs, Environment, EcoGuard, 2024-01-20, 145000, 115.0
+University_New_Enrollments, Education, UniData, 2024-04-25, 430000, 165.2
+National_Housing_Development, Demographics, CensusBureau, 2024-03-02, 700000, 190.5
+Smart_Parking_Data, Infrastructure, CityTech, 2024-03-18, 220000, 125.7
+Food_Bank_Requests, Social, ReliefOrg, 2024-02-01, 90000, 62.0
+Electric_Grid_Reports, Energy, PowerAuthority, 2024-04-08, 980000, 245.2
+Highway_Traffic_Monitoring, Transportation, RoadDept, 2024-02-15, 800000, 205.0
+Cinema_Ticket_Sales, Entertainment, MediaStat, 2024-01-28, 500000, 118.0
+Animal_Shelter_Requests, Community, PetRescue, 2024-03-12, 24000, 40.1
+National_Language_Programs, Culture, LinguaDept, 2024-04-22, 280000, 155.0
+Cybersecurity_Threats, Technology, SecWatch, 2024-02-07, 330000, 175.2
+Public_Sports_Participation, Sports, LocalAthletics, 2024-03-25, 58000, 50.0
+River_Water_Levels, Environment, HydroSurvey, 2024-01-15, 550000, 180.2
+School_Staff_Schedules, Education, EduCouncil, 2024-04-04, 125000, 88.0
+National_Election_Participation, Politics, ElectionBoard, 2024-03-12, 790000, 215.0
+Urban_Cycling_Users, Transportation, CityFlow, 2024-02-19, 320000, 145.0
+Museum_Collection_Records, Culture, ArtsCouncil, 2024-01-31, 35000, 42.0
+Hospital_Staff_Assignments, Health, MedSchedule, 2024-04-07, 80000, 67.0
+Local_Food_Supply, Economics, MarketBoard, 2024-03-20, 450000, 130.5
+Fire_Department_Responses, Safety, FireBureau, 2024-01-18, 14000, 37.2
+National_Job_Openings, Business, LaborBoard, 2024-03-01, 570000, 175.0
+Online_Course_Enrollments, Education, LearnNet, 2024-03-05, 490000, 140.5
+Water_Quality_Tests, Environment, HydroDept, 2024-01-31, 54000, 85.0
+Tourist_Site_Attendance, Tourism, TravelAuthority, 2024-04-11, 750000, 165.0
+Urban_Noise_Monitoring, Environment, UrbanSound, 2024-02-24, 145000, 115.5
+Mobile_App_Analytics, Technology, TechInsight, 2024-03-18, 930000, 200.0
+City_Budget_Planning, Finance, CityGov, 2024-01-27, 57000, 92.5
+Air_Quality_Monitoring, Environment, CleanAirOrg, 2024-04-20, 125000, 105.0
+School_Lunch_Participation, Education, FoodDept, 2024-03-10, 57000, 50.0
+Public_Transport_Incidents, Transportation, TransitBoard, 2024-01-08, 320000, 145.0
+National_Park_Visitors, Tourism, ParksDept, 2024-03-02, 34000, 50.0
+Forest_Fire_Monitoring, Environment, FireEco, 2024-04-01, 145000, 118.0
+Energy_Usage_Reports, Energy, PowerNet, 2024-01-20, 900000, 245.0
+Community_Health_Visits, Health, MedRural, 2024-04-24, 80000, 72.0
+Local_Business_Taxes, Finance, TaxOffice, 2024-02-15, 125000, 110.0
+Cultural_Events_List, Culture, ArtsCouncil, 2024-03-03, 43000, 37.0
+Airport_Flight_Logs, Transportation, AeroStats, 2024-02-02, 900000, 185.0
+Wildlife_Migration_Reports, Environment, EcoGuard, 2024-04-17, 125000, 92.0
+Electric_Vehicle_Registrations, Energy, AutoStats, 2024-02-08, 550000, 165.0
+Urban_Road_Repairs, Infrastructure, CityBuild, 2024-03-14, 68000, 100.0
+Disaster_Relief_Actions, Humanitarian, CrisisAid, 2024-01-22, 195000, 148.0
+Cyber_Attack_Notifications, Technology, SecWatch, 2024-04-05, 330000, 175.5
+National_Census_Updates, Demographics, CensusBureau, 2024-03-01, 490000, 210.0
+Online_Retail_Orders, Business, RetailStats, 2024-03-18, 460000, 170.0
+Hospital_Admissions_Records, Health, NatHealthService, 2024-01-16, 100000, 160.0
+Marine_Weather_Reports, Environment, CoastWatch, 2024-04-08, 125000, 100.0
+Cultural_Festival_Events, Culture, ArtsCouncil, 2024-02-21, 91000, 74.0
+National_Food_Exports, Agriculture, FoodDept, 2024-01-18, 740000, 205.5
+Mobile_Internet_Growth, Technology, NetSurvey, 2024-04-02, 970000, 225.6
+Emergency_Shelter_Requests, Social, ReliefOrg, 2024-04-14, 58000, 56.0
+Urban_Streetlight_Installations, Infrastructure, CityLights, 2024-01-08, 90000, 92.5
+River_Flood_Monitoring, Environment, HydroDept, 2024-02-28, 330000, 150.1
+National_Student_Graduations, Education, ExamBoard, 2024-03-13, 500000, 155.4
+Hospital_Bed_Availability, Health, NatHealthService, 2024-04-30, 91000, 80.3
+Tourism_Transport_Users, Tourism, TravelAuthority, 2024-01-12, 690000, 185.0
+Renewable_Energy_Installations, Energy, GreenPower, 2024-03-22, 800000, 215.0
+Local_Business_Revenue, Business, LaborDept, 2024-02-10, 370000, 160.2
+Weather_Station_Readings, Environment, ClimateWatch, 2024-01-25, 125000, 100.3
+Civic_Volunteer_Hours, Community, CityCouncil, 2024-04-10, 25000, 34.0
+Public_Transport_Usage, Transportation, TransitBoard, 2024-03-05, 950000, 203.2
+Museum_Visitor_Records, Culture, MuseumDept, 2024-02-15, 58000, 50.3
+Forest_Conservation_Programs, Environment, EcoGuard, 2024-01-20, 145000, 115.0
+Monthly_Fire_Department_Reports, Safety, FireBureau, 2024-05-02, 13000, 33.8
+International_Study_Enrollments, Education, EduGlobal, 2024-04-25, 78000, 109.1
+Mountain_Climbing_Stats, Sports, AlpineOrg, 2023-11-04, 42000, 50.0
+Airplane_Flight_Usage, Transportation, FlightAuthority, 2024-01-14, 890000, 180.6
+Carbon_Emissions_Metrics, Environment, GreenData, 2024-04-18, 800000, 200.2
+Housing_Loan_Approvals, Finance, BankBoard, 2024-03-11, 129000, 145.8
+University_Research_Publications, Education, UniData, 2024-01-30, 222000, 156.2
+River_Fish_Tracking, Environment, WaterLife, 2023-11-27, 120000, 91.9
+Smart_Home_Device_Usage, Technology, TechInsight, 2024-03-20, 540000, 178.3
+National_Road_Sign_Map, Infrastructure, RoadDept, 2023-10-31, 130000, 70.1
+Weather_Satellite_Images, Environment, ClimateWatch, 2024-05-10, 910000, 310.9
+Community_Sports_Programs, Sports, LocalAthletics, 2024-04-14, 55000, 60.4
+Food_Market_Pricing, Economics, MarketBoard, 2024-01-10, 340000, 126.7
+Electric_Vehicle_Charging_Stations, Energy, PowerNet, 2024-03-05, 140000, 145.4
+Government_Grants_Issued, Finance, TreasuryDept, 2024-02-01, 56000, 72.5
+Tourism_Hotel_Stays, Tourism, HotelAuth, 2024-04-03, 890000, 165.0
+Social_Service_Support_Cases, Social, SupportDept, 2024-01-07, 48000, 55.2

@@ -1,6 +1,6 @@
 import pandas as pd
 from pathlib import Path
-from app.data.db import connect_database
+from data.db import connect_database
 
 def load_csv_to_table(conn, csv_path, table_name: str):
     """Load a CSV file into a database table using pandas."""

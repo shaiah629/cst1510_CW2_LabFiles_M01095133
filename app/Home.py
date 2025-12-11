@@ -58,7 +58,6 @@ def save_user(username, password):
         st.error(f"Database error: {e}")
     return False
 
-
 # ---------- Initialise session state ----------
 if "users" not in st.session_state:
     # Very simple in-memory "database": {username: password}

@@ -1,14 +1,12 @@
 import pandas as pd
 import sqlite3
 
-def insert_ticket(conn: sqlite3.Connection, ticket_id: str, priority: str, status: str, 
-                  category: str, subject: str, description: str, 
-                  created_date: str, resolved_date: str = None, assigned_to: str = None):
-    """
-    CREATE: Insert a new IT ticket record into the database.
-    Returns: The ID of the newly created record.
-    """
+def insert_ticket(conn, priority, status, category, subject, description, created_date, resolved_date, assigned_to):
     cursor = conn.cursor()
+    #auto-generate ticket_id
+    cursor.execute("SELECT COUNT(*) FROM it_tickets")
+    count = cursor.fetchone()[0] + 1
+    ticket_id = f"TICKET-{count:03d}"
     
     query = """
     INSERT INTO it_tickets 
