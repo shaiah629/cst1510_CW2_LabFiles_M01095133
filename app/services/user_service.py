@@ -1,20 +1,21 @@
 import sqlite3
 import bcrypt
 from pathlib import Path
-from app.data.db import connect_database
-DATA_DIR = Path("DATA")
+from data.db import connect_database
+DATA_DIR = Path("data1")
 
 def register_user(username, password, role='user'):
     """Register new user with password hashing."""
     conn = connect_database()
     cursor = conn.cursor()
     
+
     #check if user already exists
     cursor.execute("SELECT * FROM users WHERE username = ?", (username,))
     if cursor.fetchone():
         conn.close()
         return False, f"Username '{username}' already exists."
-    
+
     #hash the password
     password_bytes = password.encode('utf-8')
     salt = bcrypt.gensalt()
@@ -26,6 +27,10 @@ def register_user(username, password, role='user'):
         "INSERT INTO users (username, password_hash, role) VALUES (?, ?, ?)",
         (username, password_hash, role)
     )
+    
+    with open("data1/users.txt", 'a') as file:
+        file.write(f"{username},{password_hash},{role}\n")
+
     conn.commit()
     conn.close()
     

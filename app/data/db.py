@@ -2,7 +2,7 @@ import sqlite3
 from pathlib import Path
 
 # Define paths
-DATA_DIR = Path("DATA")
+DATA_DIR = Path("data1")
 DB_PATH = DATA_DIR / "intelligence_platform.db"
 
 # Create DATA folder if it doesn't exist
