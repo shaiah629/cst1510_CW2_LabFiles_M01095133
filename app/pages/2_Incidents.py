@@ -23,7 +23,7 @@ if not st.session_state.logged_in:
 st.title("🚨 Cyber Incidents")
 st.success(f"Hello, **{st.session_state.username}**! You are logged in.")
 
-conn = connect_database("data1/intelligence_platform.db")
+conn = connect_database("DATA/intelligence_platform.db")
 incidents = get_all_incidents(conn)
 st.dataframe(incidents)
 

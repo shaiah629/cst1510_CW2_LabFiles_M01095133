@@ -2,11 +2,8 @@ import sqlite3
 from pathlib import Path
 
 # Define paths
-DATA_DIR = Path("data1")
+DATA_DIR = Path("DATA")
 DB_PATH = DATA_DIR / "intelligence_platform.db"
-
-# Create DATA folder if it doesn't exist
-DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 def connect_database(db_path=DB_PATH):
     return sqlite3.connect(db_path)

@@ -1,9 +1,9 @@
 import pandas as pd
 from pathlib import Path
-from data.users import migrate_users_from_file
+from app.data.users import migrate_users_from_file
 from app.data.incidents import load_all_csv_data
 from app.data.db import connect_database
-DB_PATH = Path("data1") / "intelligence_platform.db"
+DB_PATH = Path("DATA") / "intelligence_platform.db"
 
 def create_users_table(conn):
     """Create the users table with security columns."""

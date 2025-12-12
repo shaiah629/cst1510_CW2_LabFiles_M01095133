@@ -5,7 +5,7 @@ from data.datasets import (
     insert_dataset, get_all_datasets, update_dataset, delete_dataset
 )
 
-DB_PATH = "data1/intelligence_platform.db"
+DB_PATH = "DATA/intelligence_platform.db"
 
 # Ensure state keys exist (in case user opens this page first)
 if "logged_in" not in st.session_state:

@@ -2,7 +2,7 @@ import sqlite3
 import bcrypt
 from pathlib import Path
 from data.db import connect_database
-DATA_DIR = Path("data1")
+DATA_DIR = Path("DATA")
 
 def register_user(username, password, role='user'):
     """Register new user with password hashing."""
@@ -28,7 +28,7 @@ def register_user(username, password, role='user'):
         (username, password_hash, role)
     )
     
-    with open("data1/users.txt", 'a') as file:
+    with open("DATA/users.txt", 'a') as file:
         file.write(f"{username},{password_hash},{role}\n")
 
     conn.commit()
