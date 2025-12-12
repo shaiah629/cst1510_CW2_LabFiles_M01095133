@@ -32,7 +32,7 @@ with st.sidebar:
         st.rerun()
 
     #Model
-    model = "gpt-4o"
+    model = "gpt-4.1-mini"
 
     #Temperature slider
     temperature = st.slider("Temperature", min_value=0.0, max_value=2.0, value=1.0, step=0.1, help="Controls the randomness of the AI's responses.")
