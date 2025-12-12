@@ -13,4 +13,6 @@ users.txt
 
 #OS files
 .DS_Store
-Thumbs.db
+Thumbs.db\
+
+.streamlit/secrets.toml
