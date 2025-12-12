@@ -1,67 +1,19 @@
 import streamlit as st
 import sqlite3
 import bcrypt
-from data.db import connect_database, DATA_DIR
+from data.db import connect_database
 from data.users import get_user_by_username
 from services.user_service import register_user
 
 from pathlib import Path
 
 def connect_database():
-    return sqlite3.connect(DATA_DIR / "intelligence_platform.db")
-
-# files inside the repository DATA folder
-USERS_FILE = Path(DATA_DIR) / "users.txt"
-
-def load_users():
-    """Load users from DATA/users.txt into a dict {username: hashed_bytes}.
-    Returns bytes for stored hashes (bcrypt expects bytes).
-    """
-    users = {}
-    try:
-        with open(USERS_FILE, "r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                username, hashed_pw = line.split(",", 1)
-                users[username.strip()] = hashed_pw.strip().encode("utf-8")
-    except FileNotFoundError:
-        # No users file yet
-        pass
-    return users
-
-def save_user(username, password):
-    """Save new user to DATA/users.txt and to the SQLite users table.
-    Returns True on success, False otherwise.
-    """
-    # hash password and write to file
-    hashed = bcrypt.hashpw(password.encode("utf-8"), bcrypt.gensalt()).decode("utf-8")
-    try:
-        USERS_FILE.parent.mkdir(parents=True, exist_ok=True)
-        with open(USERS_FILE, "a", encoding="utf-8") as f:
-            f.write(f"{username},{hashed}\n")
-    except Exception:
-        return False
-
-    # also write to database (create table if needed via app.data.db)
-    try:
-        conn = connect_database()
-        cur = conn.cursor()
-        cur.execute(
-            "INSERT OR IGNORE INTO users (username, password_hash, role) VALUES (?, ?, ?)",
-            (username, hashed, 'user')
-        )
-        conn.commit()
-        conn.close()
-    except Exception as e:
-        st.error(f"Database error: {e}")
-    return False
+    return sqlite3.connect(Path("DATA") / "intelligence_platform.db")
 
 # ---------- Initialise session state ----------
 if "users" not in st.session_state:
     # Very simple in-memory "database": {username: password}
-    st.session_state.users = load_users()
+    st.session_state.users = {}
 
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
