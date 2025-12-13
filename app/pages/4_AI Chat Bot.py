@@ -13,7 +13,7 @@ st.set_page_config(
 
 #Title
 st.title("💬 ShaiahGPT - AI Chat Bot")
-st.caption("Powered by GPT-4o")
+st.caption("Powered by GPT-4.1-mini")
 
 #Initialize session state for messages
 if 'messages' not in st.session_state:

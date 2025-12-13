@@ -23,12 +23,19 @@ if "username" not in st.session_state:
 
 st.title("🔐 Welcome")
 
+# ----- SIDEBAR -----
+if st.sidebar.button("Log out"):
+    st.session_state.logged_in = False
+    st.session_state.username = ""
+    st.info("You have been logged out.")
+    st.switch_page("Home.py")
+
 # If already logged in, go straight to dashboard (optional)
 if st.session_state.logged_in:
     st.success(f"Already logged in as **{st.session_state.username}**.")
     if st.button("Go to dashboard"):
         # Use the official navigation API to switch pages
-        st.switch_page("pages/1_IT.py")  # path is relative to Home.py :contentReference[oaicite:1]{index=1}
+        st.switch_page("pages/1_IT Dashboard.py")  # path is relative to Home.py :contentReference[oaicite:1]{index=1}
     st.stop()  # Don’t show login/register again
 
 # ---------- Tabs: Login / Register ----------
@@ -52,7 +59,7 @@ with tab_login:
                 st.session_state.logged_in = True
                 st.session_state.username = login_username
                 st.success(f"Welcome back, {login_username}!")
-                st.switch_page("pages/1_IT.py")
+                st.switch_page("pages/1_IT Dashboard.py")
             else:
                 st.error("Invalid username or password.")
         else:
