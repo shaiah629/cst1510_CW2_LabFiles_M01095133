@@ -4,6 +4,19 @@ from openai import OpenAI
 # Initialize OpenAI client with API key from Streamlit secrets
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
+# Ensure state keys exist (in case user opens this page first)
+if "logged_in" not in st.session_state:
+    st.session_state.logged_in = False
+if "username" not in st.session_state:
+    st.session_state.username = ""
+
+# Guard: if not logged in, send user back
+if not st.session_state.logged_in:
+    st.error("You must be logged in to view the AI Chatbot.")
+    if st.button("Go to login page"):
+        st.switch_page("Home.py")   # back to the first page
+    st.stop()
+
 #Page configuration
 st.set_page_config(
     page_title="ShaiahGPT",
@@ -12,7 +25,7 @@ st.set_page_config(
 )
 
 #Title
-st.title("💬 ShaiahGPT - AI Chat Bot")
+st.title("💬 ShaiahGPT - AI Chatbot")
 st.caption("Powered by GPT-4.1-mini")
 
 #Initialize session state for messages
