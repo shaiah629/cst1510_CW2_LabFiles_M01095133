@@ -1,8 +1,12 @@
 import streamlit as st
 import bcrypt
+from pathlib import Path
 from services.database_manager import DatabaseManager
 from services.auth_manager import AuthManager
 
+# Get absolute path to database file
+BASE_DIR = Path(__file__).parent
+DB_PATH = BASE_DIR / "database" / "platform.db"
 db = DatabaseManager("database/platform.db")
 auth = AuthManager(db)
 

@@ -1,5 +1,6 @@
 import streamlit as st
 import altair as alt
+from pathlib import Path
 from openai import OpenAI
 from services.database_manager import DatabaseManager
 from models.it_ticket import TicketManager   # <-- OOP TicketManager
@@ -25,7 +26,9 @@ st.set_page_config(page_title="IT Operations", page_icon="📌", layout="wide")
 st.title("📌 IT Operations")
 
 # Connect to database and initialize TicketManager
-db = DatabaseManager("database/platform.db")
+BASE_DIR = Path(__file__).parent.parent
+DB_PATH = BASE_DIR / "database" / "platform.db"
+db = DatabaseManager(str(DB_PATH))
 db.connect()
 tickets_manager = TicketManager(db)
 
