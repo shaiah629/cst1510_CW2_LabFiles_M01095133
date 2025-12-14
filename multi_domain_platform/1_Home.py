@@ -1,5 +1,4 @@
 import streamlit as st
-import bcrypt
 from pathlib import Path
 from services.database_manager import DatabaseManager
 from services.auth_manager import AuthManager

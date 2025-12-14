@@ -18,7 +18,7 @@ if "username" not in st.session_state:
 if not st.session_state.logged_in:
     st.error("You must be logged in to view Data Science.")
     if st.button("Go to login page"):
-        st.switch_page("Home.py")
+        st.switch_page("1_Home.py")
     st.stop()
 
 # If logged in, show dashboard content

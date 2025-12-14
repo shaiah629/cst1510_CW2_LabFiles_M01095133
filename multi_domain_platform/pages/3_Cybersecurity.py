@@ -22,7 +22,7 @@ if "cyber_messages" not in st.session_state:
 if not st.session_state.logged_in:
     st.error("You must be logged in to view Cybersecurity.")
     if st.button("Go to login page"):
-        st.switch_page("Home.py")
+        st.switch_page("1_Home.py")
     st.stop()
 
 st.set_page_config(page_title="Cybersecurity", page_icon="🚨", layout="wide")
@@ -165,44 +165,80 @@ with tab_incidents:
 
 with tab_chatbot:
     st.title("💬 ShaiahGPT - Cyber Chatbot")
-    st.caption("Ask me anything about your cyber issues.")
+    st.caption("Ask me anything about your cyber issues. I'm here to help!")
 
     system_prompt = {
-        "role": "system",
-        "content": (
-            "You are a cybersecurity expert. Give concise, professional advice on cyber threats, "
-            "security best practices, and risk mitigation."
-        )
-    }
-    if not st.session_state.cyber_messages:
+    "role": "system",
+    "content": (
+        "You are a seasoned cybersecurity expert. Respond to users with clear, authoritative guidance on "
+        "cyber threats, security best practices, and risk mitigation strategies. Use precise technical terminology "
+        "when appropriate, and always aim to strengthen the user's security posture or guide them toward a safe solution. "
+        "Be concise, professional, and confident, while ensuring your advice reflects modern cybersecurity standards."
+    )
+}
+
+    if 'cyber_messages' not in st.session_state:
         st.session_state.cyber_messages = [system_prompt]
 
+    #Sidebar with controls
+    with st.sidebar:
+        st.subheader("Chat Controls")
+
+        message_count = len([m for m in st.session_state.cyber_messages if m["role"]!= "system"])
+        st.metric("Messages", message_count)
+
+        # Clear chat button
+        if st.button("🗑️ Clear Cyber Chat", use_container_width=True):
+            st.session_state.cyber_messages = []
+            st.rerun()
+
+        # Model
+        model = "gpt-4.1-mini"
+
+        # Temperature slider
+        temperature = st.slider("Temperature", min_value=0.0, max_value=2.0, value=1.0, step=0.1, help="Controls the randomness of the AI's responses.")
+
+    # Display previous messages
     for message in st.session_state.cyber_messages:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
+    # User input
     prompt = st.chat_input("Type your message here...")
+
     if prompt:
-        st.session_state.cyber_messages.append({"role": "user", "content": prompt})
+        #Display user message
         with st.chat_message("user"):
             st.markdown(prompt)
 
+        #Add user message to session state
+        st.session_state.cyber_messages.append({
+            "role": "user",
+            "content": prompt
+        })
+
+        #Call OpenAI API with streaming
         with st.spinner("Thinking..."):
             completion = client.chat.completions.create(
-                model="gpt-4.1-mini",
+                model=model,
                 messages=st.session_state.cyber_messages,
-                temperature=1.0,
+                temperature=temperature,
                 stream=True
             )
 
         with st.chat_message("assistant"):
             container = st.empty()
             full_reply = ""
+
             for chunk in completion:
                 delta = chunk.choices[0].delta
                 if delta.content:
                     full_reply += delta.content
-                    container.markdown(full_reply + " ")
+                    container.markdown(full_reply + " ") #Add cursor effect
+
             container.markdown(full_reply)
 
-        st.session_state.cyber_messages.append({"role": "assistant", "content": full_reply})
+        st.session_state.cyber_messages.append({
+            "role": "assistant",
+            "content": full_reply
+        })
