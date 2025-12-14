@@ -19,13 +19,13 @@ if "username" not in st.session_state:
 
 # Guard: if not logged in, send user back
 if not st.session_state.logged_in:
-    st.error("You must be logged in to view the AI and Data Science dashboard.")
+    st.error("You must be logged in to view AI and Data Science.")
     if st.button("Go to login page"):
         st.switch_page("Home.py")   # back to the first page
     st.stop()
 
 # If logged in, show dashboard content
-st.title("📁 AI and Data Science")
+st.title("📁 Ai and Data Science")
 
 st.set_page_config(page_title="AI and Data Science", page_icon="📁", layout="wide")
 

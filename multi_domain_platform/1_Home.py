@@ -1,13 +1,10 @@
 import streamlit as st
-import sqlite3
 import bcrypt
-from data.users import get_user_by_username
-from services.user_service import register_user
+from services.database_manager import DatabaseManager
+from services.auth_manager import AuthManager
 
-from pathlib import Path
-
-def connect_database():
-    return sqlite3.connect(Path("DATA") / "intelligence_platform.db")
+db = DatabaseManager("database/platform.db")
+auth = AuthManager(db)
 
 # ---------- Initialise session state ----------
 if "users" not in st.session_state:
@@ -27,14 +24,14 @@ if st.sidebar.button("Log out"):
     st.session_state.logged_in = False
     st.session_state.username = ""
     st.info("You have been logged out.")
-    st.switch_page("Home.py")
+    st.switch_page("1_Home.py")
 
 # If already logged in, go straight to dashboard (optional)
 if st.session_state.logged_in:
     st.success(f"Already logged in as **{st.session_state.username}**.")
     if st.button("Go to dashboard"):
         # Use the official navigation API to switch pages
-        st.switch_page("pages/1_IT Dashboard.py")  # path is relative to Home.py :contentReference[oaicite:1]{index=1}
+        st.switch_page("pages/2_IT Operations.py")
     st.stop()  # Don’t show login/register again
 
 # ---------- Tabs: Login / Register ----------
@@ -48,7 +45,7 @@ with tab_login:
     login_password = st.text_input("Password", type="password", key="login_password")
 
     if st.button("Log in", type="primary"):
-        user = get_user_by_username(login_username)
+        user = auth.login_user(login_username, login_password)
         if user:
             # DB row tuple is (id, username, password_hash, role) — use index 2
             stored_hash = user[2].encode("utf-8")
@@ -58,7 +55,7 @@ with tab_login:
                 st.session_state.logged_in = True
                 st.session_state.username = login_username
                 st.success(f"Welcome back, {login_username}!")
-                st.switch_page("pages/1_IT Dashboard.py")
+                st.switch_page("pages/2_IT Operations.py")
             else:
                 st.error("Invalid username or password.")
         else:
@@ -78,7 +75,7 @@ with tab_register:
         elif new_password != confirm_password:
             st.error("Passwords do not match.")
         else:
-            success, message = register_user(new_username, new_password, role="user")
+            success, message = auth.register_user(new_username, new_password, role="user")
             if success:
                 st.success(message)
                 st.info("Tip: Go to the Login tab and sign in with your new account.")

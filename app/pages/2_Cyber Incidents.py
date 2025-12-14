@@ -19,7 +19,7 @@ if "username" not in st.session_state:
 
 # Guard: if not logged in, send user back
 if not st.session_state.logged_in:
-    st.error("You must be logged in to view the Cyber Incidents dashboard.")
+    st.error("You must be logged in to view Cyber Incidents.")
     if st.button("Go to login page"):
         st.switch_page("Home.py")   # back to the first page
     st.stop()
