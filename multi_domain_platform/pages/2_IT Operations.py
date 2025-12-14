@@ -38,7 +38,6 @@ tickets = tickets_manager.get_all_tickets()
 # Tabs
 tab_analytics, tab_tickets, tab_chatbot = st.tabs(["Analytics", "Ticket Manager", "IT Chatbot"])
 
-# -------------------- Analytics Tab --------------------
 with tab_analytics:
     st.header("Charts")
 
@@ -64,11 +63,22 @@ with tab_analytics:
     status_counts = tickets["status"].value_counts().reset_index()
     status_counts.columns = ["status", "count"]
 
-    chart_status = alt.Chart(status_counts).mark_bar().encode(
+    custom_colors = alt.Scale(
+        domain=["Open", "In Progress", "Closed", "Resolved"],
+        range=["#595959","#A6A6A6", "#D9D9D9", "#2E2E2E"]
+    )
+
+    chart_status = (alt.Chart(status_counts).mark_bar().encode(
         y=alt.Y("status", sort="-y", title="Status"),
         x=alt.X("count", title="Count"),
-        color=alt.Color("status", legend=alt.Legend(title="Status"))
+        color=alt.Color(
+            "status",
+            sort=["Resolved", "Open", "In Progress", "Closed"],
+            scale=alt.Scale(range=["#2E2E2E","#595959", "#A6A6A6", "#D9D9D9" ]),
+            legend=alt.Legend(title="Status")
+        )
     )
+)
     st.altair_chart(chart_status)
 
     # Tickets by Category
@@ -82,7 +92,6 @@ with tab_analytics:
     )
     st.altair_chart(chart_category)
 
-# -------------------- Ticket Manager Tab --------------------
 with tab_tickets:
     # Dashboard metrics
     col1, col2, col3 = st.columns(3)
@@ -113,7 +122,7 @@ with tab_tickets:
         if st.button("Delete Ticket"):
             st.session_state.form = "delete"
 
-    # Insert / Update / Delete
+    # Insert 
     if st.session_state.form == "insert":
         with st.form("new_ticket"):
             subject = st.text_input("Subject")
@@ -135,6 +144,7 @@ with tab_tickets:
                 st.success(f"Ticket {ticket_id} inserted successfully.")
                 st.rerun()
 
+    # Update
     if st.session_state.form == "update":
         with st.form("update_ticket"):
             ticket_id = st.text_input("Ticket ID to Update")
@@ -152,6 +162,7 @@ with tab_tickets:
                     st.error(f"Ticket {ticket_id} not found.")
                 st.rerun()
 
+    # Delete
     if st.session_state.form == "delete":
         with st.form("delete_ticket"):
             ticket_id = st.text_input("Ticket ID to Delete (e.g., TICKET-001)")
@@ -165,7 +176,6 @@ with tab_tickets:
                     st.error(f"Ticket {ticket_id} not found.")
                 st.rerun()
 
-# -------------------- Chatbot Tab --------------------
 with tab_chatbot:
     st.title("💬 ShaiahGPT - IT Chatbot")
     st.caption("Ask me anything about your IT issues. I'm here to help!")

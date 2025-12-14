@@ -51,17 +51,10 @@ with tab_login:
     if st.button("Log in", type="primary"):
         user = auth.login_user(login_username, login_password)
         if user:
-            # DB row tuple is (id, username, password_hash, role) — use index 2
-            stored_hash = user[2].encode("utf-8")
-            password_bytes = login_password.encode("utf-8")
-
-            if bcrypt.checkpw(password_bytes, stored_hash):
-                st.session_state.logged_in = True
-                st.session_state.username = login_username
-                st.success(f"Welcome back, {login_username}!")
-                st.switch_page("pages/2_IT Operations.py")
-            else:
-                st.error("Invalid username or password.")
+            st.session_state.logged_in = True
+            st.session_state.username = login_username
+            st.success(f"Welcome back, {login_username}!")
+            st.switch_page("pages/2_IT Operations.py")
         else:
             st.error("Invalid username or password.")
 
