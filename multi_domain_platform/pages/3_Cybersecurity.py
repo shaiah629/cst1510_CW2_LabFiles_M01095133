@@ -3,12 +3,12 @@ import altair as alt
 from pathlib import Path
 from openai import OpenAI
 from services.database_manager import DatabaseManager
-from models.security_incident import SecurityIncidentManager  # <-- use the manager
+from models.security_incident import SecurityIncidentManager  # <-- OOP SecurityIncidentManager
 
 # Initialize OpenAI client
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
 
-# Ensure session state keys
+# Ensure state keys exist
 if "logged_in" not in st.session_state:
     st.session_state.logged_in = False
 if "username" not in st.session_state:
@@ -18,17 +18,18 @@ if "form" not in st.session_state:
 if "cyber_messages" not in st.session_state:
     st.session_state.cyber_messages = []
 
-# Guard: only logged in
+# Guard: if not logged in, send user back
 if not st.session_state.logged_in:
     st.error("You must be logged in to view Cybersecurity.")
     if st.button("Go to login page"):
         st.switch_page("1_Home.py")
     st.stop()
 
+# If logged in, show dashboard content
 st.set_page_config(page_title="Cybersecurity", page_icon="🚨", layout="wide")
 st.title("🚨 Cybersecurity")
 
-# Connect to database
+# Connect to database and initialize incident_manager
 BASE_DIR = Path(__file__).parent.parent
 DB_PATH = BASE_DIR / "database" / "platform.db"
 db = DatabaseManager(str(DB_PATH))
@@ -38,7 +39,7 @@ incident_manager = SecurityIncidentManager(db)
 # Load incidents as DataFrame
 incidents_df = incident_manager.get_all_incidents_df()
 
-# --- Tabs ---
+# Tabs
 tab_analytics, tab_incidents, tab_chatbot = st.tabs(["Analytics", "Incident Manager", "Cyber Chatbot"])
 
 with tab_analytics:
@@ -116,7 +117,7 @@ with tab_incidents:
         if st.button("Delete Incident"):
             st.session_state.form = "delete"
 
-    # --- Insert Form ---
+    # Insert
     if st.session_state.form == "insert":
         with st.form("new_incident"):
             date = st.date_input("Created Date")
@@ -134,7 +135,7 @@ with tab_incidents:
             st.success(f"Incident #{incident_id} inserted successfully.")
             st.experimental_rerun()
 
-    # --- Update Form ---
+    # Update
     if st.session_state.form == "update":
         with st.form("update_incident"):
             incident_id = st.text_input("Incident ID")
@@ -149,7 +150,7 @@ with tab_incidents:
                 st.error(f"Incident #{incident_id} not found.")
             st.experimental_rerun()
 
-    # --- Delete Form ---
+    # Delete
     if st.session_state.form == "delete":
         with st.form("delete_incident"):
             incident_id = st.text_input("Incident ID to Delete")
@@ -238,7 +239,4 @@ with tab_chatbot:
 
             container.markdown(full_reply)
 
-        st.session_state.cyber_messages.append({
-            "role": "assistant",
-            "content": full_reply
-        })
+        st.session_state.cyber_messages.append({"role": "assistant", "content": full_reply})

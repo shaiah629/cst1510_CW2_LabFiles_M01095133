@@ -3,7 +3,7 @@ import altair as alt
 from pathlib import Path
 from openai import OpenAI
 from services.database_manager import DatabaseManager
-from models.dataset import Dataset  # <-- new manager class
+from models.dataset import Dataset  # <-- OOP Dataset
 
 # Initialize OpenAI client with API key from Streamlit secrets
 client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
@@ -41,6 +41,7 @@ tab_analytics, tab_data, tab_chatbot = st.tabs(["Analytics", "Dataset Manager", 
 with tab_analytics:
     st.header("Charts")
 
+    # Dataset by Record
     st.subheader("Dataset by Record")
     record_counts = datasets_df["record_count"].value_counts().reset_index()
     record_counts.columns = ["record_count", "count"]
@@ -52,6 +53,7 @@ with tab_analytics:
     )
     st.altair_chart(chart_records)
 
+    # Dataset by Size
     st.subheader("Dataset by Size")
     size_counts = datasets_df["file_size_mb"].value_counts().reset_index()
     size_counts.columns = ["file_size_mb", "count"]
@@ -167,29 +169,37 @@ with tab_chatbot:
     if 'ai_messages' not in st.session_state:
         st.session_state.ai_messages = [system_prompt]
 
+    # Sidebar controls
     with st.sidebar:
         st.subheader("Chat Controls")
         message_count = len([m for m in st.session_state.ai_messages if m["role"] != "system"])
         st.metric("Messages", message_count)
 
+        # Clear chat button
         if st.button("🗑️ Clear AI and Data Science Chat", use_container_width=True):
             st.session_state.ai_messages = []
             st.rerun()
 
+        # Model
         model = "gpt-4.1-mini"
-        temperature = st.slider("Temperature", 0.0, 2.0, 1.0, 0.1,
-                                help="Controls the randomness of the AI's responses.")
 
+        # Temperature slider
+        temperature = st.slider("Temperature", 0.0, 2.0, 1.0, 0.1, help="Controls the randomness of the AI's responses.")
+
+    # Display previous messages
     for message in st.session_state.ai_messages:
         with st.chat_message(message["role"]):
             st.markdown(message["content"])
 
+    # User input
     prompt = st.chat_input("Type your message here...")
     if prompt:
+        # Display user message
         with st.chat_message("user"):
             st.markdown(prompt)
         st.session_state.ai_messages.append({"role": "user", "content": prompt})
 
+        # Call OpenAI API with streaming
         with st.spinner("Thinking..."):
             completion = client.chat.completions.create(
                 model=model,

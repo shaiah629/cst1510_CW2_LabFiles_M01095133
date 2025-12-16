@@ -198,11 +198,16 @@ with tab_chatbot:
         message_count = len([m for m in st.session_state.it_messages if m["role"] != "system"])
         st.metric("Messages", message_count)
 
+
+        # Clear chat button
         if st.button("🗑️ Clear IT Chat", use_container_width=True):
             st.session_state.it_messages = []
             st.rerun()
 
+        # Model
         model = "gpt-4.1-mini"
+
+        # Temperature slider
         temperature = st.slider("Temperature", min_value=0.0, max_value=2.0,
                                 value=1.0, step=0.1,
                                 help="Controls the randomness of the AI's responses.")
@@ -214,11 +219,16 @@ with tab_chatbot:
 
     # User input
     prompt = st.chat_input("Type your message here...")
+    
     if prompt:
+        # Dispplay user message
         with st.chat_message("user"):
             st.markdown(prompt)
+
+        # Add user message to session state
         st.session_state.it_messages.append({"role": "user", "content": prompt})
 
+        # Call OpenAI with streaming
         with st.spinner("Thinking..."):
             completion = client.chat.completions.create(
                 model=model,
